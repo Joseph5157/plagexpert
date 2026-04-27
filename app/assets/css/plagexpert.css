@@ -1,0 +1,30 @@
+:root {
+  --plagexpert-primary-navy: #0b1f3a;
+  --plagexpert-primary-blue: #2563eb;
+  --plagexpert-blue-hover: #1d4ed8;
+  --plagexpert-soft-blue: #eff6ff;
+  --plagexpert-bg: #f8fafc;
+  --plagexpert-trust-green: #16a34a;
+  --plagexpert-trust-green-hover: #15803d;
+  --plagexpert-soft-green: #ecfdf5;
+  --plagexpert-footer: #020617;
+  --plagexpert-text-main: #0f172a;
+  --plagexpert-text-body: #334155;
+  --plagexpert-text-muted: #64748b;
+  --plagexpert-border: #e2e8f0;
+  --plagexpert-white: #ffffff;
+}
+
+html {
+  background: var(--plagexpert-bg);
+}
+
+body {
+  background: var(--plagexpert-bg);
+  color: var(--plagexpert-text-main);
+}
+
+::selection {
+  background: var(--plagexpert-soft-blue);
+  color: var(--plagexpert-primary-navy);
+}

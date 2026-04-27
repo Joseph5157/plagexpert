@@ -1,0 +1,33 @@
+:root {
+  --plagexpert-primary-navy: #123b6f;
+  --plagexpert-primary-blue: #347be8;
+  --plagexpert-blue-hover: #2563eb;
+  --plagexpert-soft-blue: #eef4ff;
+  --plagexpert-primary-cta: #e11d48;
+  --plagexpert-primary-cta-hover: #be123c;
+  --plagexpert-soft-cta: #fff1f3;
+  --plagexpert-soft-pink: #fff7f8;
+  --plagexpert-bg: #ffffff;
+  --plagexpert-surface: #f8fafc;
+  --plagexpert-footer: #071225;
+  --plagexpert-text-main: #0f172a;
+  --plagexpert-text-body: #334155;
+  --plagexpert-text-muted: #64748b;
+  --plagexpert-border: #e2e8f0;
+  --plagexpert-white: #ffffff;
+}
+
+html {
+  background: var(--plagexpert-bg);
+  color-scheme: light;
+}
+
+body {
+  background: var(--plagexpert-bg);
+  color: var(--plagexpert-text-main);
+}
+
+::selection {
+  background: var(--plagexpert-soft-cta);
+  color: var(--plagexpert-primary-navy);
+}

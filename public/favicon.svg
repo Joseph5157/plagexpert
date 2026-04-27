@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PlagExpert favicon">
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+  <path d="M68 96C68 79.4315 81.4315 66 98 66H210C277.497 66 332 120.503 332 188C332 242.448 294.899 287.894 245.116 301.314L298 446H208L165 322H146V446H68V96Z" fill="#123B6F"/>
+  <path d="M210 154C210 126.386 187.614 104 160 104H146V204H160C187.614 204 210 181.614 210 154Z" fill="#FFFFFF"/>
+  <path d="M246 66H414C430.569 66 444 79.4315 444 96V166H334V206H430V274H334V314H444V416C444 432.569 430.569 446 414 446H246V66Z" fill="#347BE8"/>
+  <path d="M334 124H422" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+  <path d="M334 244H422" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+  <path d="M334 364H422" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+</svg>

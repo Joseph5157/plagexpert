@@ -1,0 +1,48 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PlagExpert logo">
+  <rect width="1600" height="520" fill="#FFFFFF"/>
+
+  <g transform="translate(38 54)">
+    <g transform="translate(0 0)">
+      <path d="M26 52C26 37.6406 37.6406 26 52 26H196C210.359 26 222 37.6406 222 52V248C222 262.359 210.359 274 196 274H52C37.6406 274 26 262.359 26 248V52Z" fill="#123B6F" opacity="0.12"/>
+      <path d="M36 46C36 31.6406 47.6406 20 62 20H206C220.359 20 232 31.6406 232 46V242C232 256.359 220.359 268 206 268H62C47.6406 268 36 256.359 36 242V46Z" fill="#FFFFFF"/>
+      <path d="M48 42C48 29.8497 57.8497 20 70 20H208C220.15 20 230 29.8497 230 42V240C230 252.15 220.15 262 208 262H70C57.8497 262 48 252.15 48 240V42Z" fill="#FFFFFF" stroke="#123B6F" stroke-width="4"/>
+
+      <path d="M60 58C60 45.8497 69.8497 36 82 36H126V236H82C69.8497 236 60 226.15 60 214V58Z" fill="#F8FAFC"/>
+      <path d="M216 58C216 45.8497 206.15 36 194 36H150V236H194C206.15 236 216 226.15 216 214V58Z" fill="#F8FAFC"/>
+
+      <path d="M63 44C63 31.8497 72.8497 22 85 22H123C135.15 22 145 31.8497 145 44V236H63V44Z" fill="#FFFFFF" stroke="#123B6F" stroke-width="3"/>
+      <path d="M153 44C153 31.8497 162.85 22 175 22H213C225.15 22 235 31.8497 235 44V236H153V44Z" fill="#FFFFFF" stroke="#123B6F" stroke-width="3"/>
+
+      <path d="M76 66H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M76 88H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M76 112H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M76 136H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M76 160H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M76 184H132" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+
+      <path d="M164 68H220" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M164 92H220" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M164 116H220" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M164 140H220" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M164 164H220" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+
+      <path d="M153 195L134 224" stroke="#123B6F" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="180" cy="142" r="38" stroke="#123B6F" stroke-width="4"/>
+      <circle cx="180" cy="142" r="26" stroke="#347BE8" stroke-width="4"/>
+      <path d="M195 162L224 220" stroke="#123B6F" stroke-width="16" stroke-linecap="round"/>
+      <path d="M178 180L178 238" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M80 224V268L92 260L104 268V224" stroke="#123B6F" stroke-width="3" stroke-linejoin="round"/>
+
+      <path d="M216 236L230 262" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M140 228C140 228 151 240 163 240C175 240 185 228 185 228" stroke="#123B6F" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(322 70)">
+    <text x="0" y="240" fill="#123B6F" font-family="Arial, Helvetica, sans-serif" font-size="260" font-weight="900" letter-spacing="-12">P</text>
+    <text x="148" y="240" fill="#347BE8" font-family="Arial, Helvetica, sans-serif" font-size="260" font-weight="900" letter-spacing="-12">E</text>
+
+    <text x="304" y="160" fill="#123B6F" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="900" letter-spacing="1">PLAG</text>
+    <text x="304" y="286" fill="#347BE8" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="900" letter-spacing="1">EXPERT</text>
+  </g>
+</svg>
