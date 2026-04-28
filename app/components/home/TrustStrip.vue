@@ -10,7 +10,7 @@ const tags = [
 </script>
 
 <template>
-  <section class="border-y border-[#E2E8F0] bg-white px-4 py-3 sm:py-4">
+  <section class="border-y border-[#E2E8F0] bg-white px-4 py-4 sm:py-5">
     <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-start gap-2.5 sm:justify-center sm:gap-3">
       <span
         v-for="tag in tags"

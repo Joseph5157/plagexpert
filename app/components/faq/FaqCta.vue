@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 py-12 sm:py-16 lg:py-20">
+  <section class="px-4 py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-4xl">
       <div class="rounded-[2rem] border border-[var(--plagexpert-border)] bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFC_100%)] p-6 shadow-[0_24px_70px_rgba(16,24,40,0.06)] sm:p-8 md:p-10">
         <div class="text-center">

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#EFF6FF] px-4 py-12 sm:py-16 lg:py-20">
+  <section class="bg-[#EFF6FF] px-4 py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl">
       <div class="overflow-hidden rounded-[2rem] bg-white shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">
         <div class="grid gap-0 lg:grid-cols-[1.08fr_0.92fr]">

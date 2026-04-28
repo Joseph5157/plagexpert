@@ -71,7 +71,7 @@ const termsSections = [
 
 <template>
   <main class="overflow-hidden bg-[#F8FAFC] pb-10 sm:pb-14">
-    <section class="relative isolate overflow-hidden bg-[linear-gradient(180deg,#F8FAFC_0%,#FFFFFF_72%,#EFF6FF_100%)] px-4 pt-14 pb-10 sm:pt-16 sm:pb-12 lg:pt-20 lg:pb-14">
+    <section class="relative isolate overflow-hidden bg-[linear-gradient(180deg,#F8FAFC_0%,#FFFFFF_72%,#EFF6FF_100%)] px-4 py-16 sm:py-20 lg:py-24">
       <div class="absolute -top-24 right-0 h-72 w-72 rounded-full bg-[#EFF6FF] blur-3xl"></div>
       <div class="absolute bottom-0 left-0 h-80 w-80 rounded-full bg-[#DBEAFE] blur-3xl"></div>
 

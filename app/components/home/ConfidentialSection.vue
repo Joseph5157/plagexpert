@@ -19,7 +19,7 @@ const items = [
 </script>
 
 <template>
-  <section class="bg-[#020617] px-4 pt-10 pb-12 text-white sm:pt-12 sm:pb-16 lg:pt-14 lg:pb-20">
+  <section class="bg-[#020617] px-4 py-16 text-white sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-10">
         <div>
