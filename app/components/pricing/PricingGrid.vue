@@ -40,7 +40,7 @@ const plans = [
 </script>
 
 <template>
-  <section class="bg-white px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-white px-4 py-12 sm:py-16 lg:py-20">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
@@ -52,7 +52,7 @@ const plans = [
         </h2>
       </div>
 
-      <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 sm:gap-6">
+      <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 sm:gap-6">
         <article
           v-for="plan in plans"
           :key="plan.name"

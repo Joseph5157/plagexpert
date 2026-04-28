@@ -28,7 +28,7 @@ const trustBadges = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-[#F8FAFC] px-4 pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-12">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
@@ -55,7 +55,7 @@ const trustBadges = [
         </span>
       </div>
 
-      <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
+      <div class="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
         <div
           v-for="card in trustCards"
           :key="card.title"

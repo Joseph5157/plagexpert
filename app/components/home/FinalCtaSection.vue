@@ -11,7 +11,7 @@ const steps = [
 </script>
 
 <template>
-  <section class="bg-[#EFF6FF] px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-[#EFF6FF] px-4 py-12 sm:py-16 lg:py-20">
     <div class="mx-auto max-w-7xl">
       <div class="md:hidden">
         <div class="rounded-[2rem] bg-white p-6 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">
@@ -86,7 +86,7 @@ const steps = [
               </p>
             </div>
 
-            <div class="bg-[#0B1F3A] p-6 text-white sm:p-8 md:p-12 lg:p-16">
+            <div class="bg-[#0B1F3A] p-6 text-white sm:p-8 md:p-10 lg:p-12">
               <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-5 shadow-[0_18px_50px_rgba(11,31,58,0.18)] sm:p-6">
                 <h3 class="text-xl font-bold tracking-tight">
                   Get your report through the secure portal
