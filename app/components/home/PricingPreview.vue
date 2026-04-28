@@ -107,11 +107,11 @@ const plans = [
             </li>
           </ul>
 
-          <a
-            href="#"
-            class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
-          >
-            Buy on WhatsApp
+            <a
+              :href="getWhatsAppUrl()"
+              class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+            >
+              Buy on WhatsApp
           </a>
         </div>
       </div>

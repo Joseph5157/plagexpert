@@ -20,11 +20,11 @@
         <NuxtLink to="/contact" class="rounded-full px-4 py-2 text-sm font-semibold text-[var(--plagexpert-text-body)] transition hover:bg-[var(--plagexpert-soft-blue)] hover:text-[var(--plagexpert-primary-blue)]">Contact</NuxtLink>
       </nav>
 
-      <a
-        href="#"
-        class="rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
-      >
-        WhatsApp
+        <a
+          :href="getWhatsAppUrl()"
+          class="rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
+        >
+          WhatsApp
       </a>
     </div>
   </header>

@@ -52,7 +52,7 @@ const closeMobileMenu = () => {
 
         <div class="hidden md:block">
           <a
-            href="#"
+            :href="getWhatsAppUrl()"
             class="inline-flex rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
           >
             WhatsApp
@@ -131,7 +131,7 @@ const closeMobileMenu = () => {
             </a>
 
             <a
-              href="#"
+              :href="getWhatsAppUrl()"
               class="mt-1 inline-flex items-center justify-center rounded-full bg-[#16A34A] px-4 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
               @click="closeMobileMenu"
             >

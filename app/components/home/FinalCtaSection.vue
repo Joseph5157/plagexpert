@@ -29,7 +29,7 @@ const steps = [
 
           <div class="mt-6 flex flex-col gap-3">
             <a
-              href="#"
+              :href="getWhatsAppUrl()"
               class="inline-flex w-full items-center justify-center rounded-full bg-[#2563EB] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.24)] transition hover:bg-[#1D4ED8]"
             >
               Start on WhatsApp
@@ -67,7 +67,7 @@ const steps = [
 
               <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
                 <a
-                  href="#"
+                  :href="getWhatsAppUrl()"
                   class="inline-flex w-full items-center justify-center rounded-full bg-[#2563EB] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.24)] transition hover:bg-[#1D4ED8] sm:w-auto"
                 >
                   Start on WhatsApp

@@ -20,7 +20,7 @@
 
         <div class="mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:gap-4">
           <a
-            href="#"
+            :href="getWhatsAppUrl()"
             class="inline-flex w-full items-center justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-6 py-3.5 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(225,29,72,0.24)] transition hover:bg-[var(--plagexpert-primary-cta-hover)] hover:shadow-[0_20px_48px_rgba(190,18,60,0.28)] sm:w-auto sm:px-8"
           >
             Get report on WhatsApp

@@ -18,7 +18,7 @@
 
             <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
               <a
-                href="#"
+                  :href="getWhatsAppUrl()"
                 class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-7 py-3 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D] sm:w-auto"
               >
                 Chat on WhatsApp

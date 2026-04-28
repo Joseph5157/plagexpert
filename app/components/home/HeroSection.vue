@@ -24,7 +24,7 @@ const portalLoginUrl = getPortalLoginUrl()
 
         <div class="mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:gap-4">
           <a
-            href="#"
+            :href="getWhatsAppUrl()"
             class="inline-flex w-full items-center justify-center rounded-full bg-[#2563EB] px-6 py-3.5 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.24)] transition hover:bg-[#1D4ED8] hover:shadow-[0_20px_48px_rgba(29,78,216,0.28)] sm:w-auto sm:px-8"
           >
             Start on WhatsApp

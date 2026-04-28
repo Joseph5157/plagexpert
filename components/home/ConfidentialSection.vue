@@ -38,7 +38,7 @@ const items = [
           </p>
 
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a href="#" class="inline-flex w-full items-center justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(225,29,72,0.24)] transition hover:bg-[var(--plagexpert-primary-cta-hover)] sm:w-auto">
+            <a :href="getWhatsAppUrl()" class="inline-flex w-full items-center justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(225,29,72,0.24)] transition hover:bg-[var(--plagexpert-primary-cta-hover)] sm:w-auto">
               Get report on WhatsApp
             </a>
 

@@ -26,7 +26,7 @@ const steps = [
 
           <div class="mt-6 flex flex-col gap-3">
             <a
-              href="#"
+              :href="getWhatsAppUrl()"
               class="inline-flex w-full items-center justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(225,29,72,0.24)] transition hover:bg-[var(--plagexpert-primary-cta-hover)]"
             >
               Chat on WhatsApp
@@ -64,7 +64,7 @@ const steps = [
 
               <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
                 <a
-                  href="#"
+                  :href="getWhatsAppUrl()"
                   class="inline-flex w-full items-center justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(225,29,72,0.24)] transition hover:bg-[var(--plagexpert-primary-cta-hover)] sm:w-auto"
                 >
                   Chat on WhatsApp
@@ -107,7 +107,7 @@ const steps = [
                 </div>
 
                 <a
-                  href="#"
+                  :href="getWhatsAppUrl()"
                   class="mt-8 inline-flex w-full justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] transition hover:bg-[var(--plagexpert-soft-blue)]"
                 >
                   Start on WhatsApp

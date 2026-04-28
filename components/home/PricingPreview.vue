@@ -108,7 +108,7 @@ const plans = [
           </ul>
 
           <a
-            href="#"
+            :href="getWhatsAppUrl()"
             class="mt-6 inline-flex w-full justify-center rounded-full bg-[var(--plagexpert-primary-cta)] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(225,29,72,0.22)] transition hover:bg-[var(--plagexpert-primary-cta-hover)]"
           >
             Buy on WhatsApp
