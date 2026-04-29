@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 py-16 sm:py-20 lg:py-24">
+  <section class="px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-4xl">
       <div class="rounded-[2rem] border border-[var(--plagexpert-border)] bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFC_100%)] p-6 shadow-[0_24px_70px_rgba(16,24,40,0.06)] sm:p-8 md:p-10">
         <div class="text-center">
@@ -13,7 +13,7 @@
 
           <div class="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center sm:gap-4">
             <a
-              :href="getWhatsAppUrl()"
+              href="#"
               class="inline-flex items-center justify-center rounded-full bg-[var(--plagexpert-trust-green)] px-7 py-3 text-sm font-semibold text-white shadow-[0_16px_36px_rgba(22,163,74,0.24)] transition hover:bg-[var(--plagexpert-trust-green-hover)]"
             >
               Chat on WhatsApp

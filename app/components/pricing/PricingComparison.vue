@@ -10,7 +10,7 @@ const rows = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-[#F8FAFC] px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
@@ -22,7 +22,7 @@ const rows = [
         </h2>
       </div>
 
-      <div class="mt-10 space-y-4 md:hidden">
+      <div class="mt-6 space-y-4 md:hidden">
         <article
           v-for="row in rows"
           :key="row.label"
@@ -57,7 +57,7 @@ const rows = [
         </article>
       </div>
 
-      <div class="mt-10 hidden overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white md:block">
+      <div class="mt-6 hidden overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white md:block">
         <div class="overflow-x-auto">
           <table class="min-w-full divide-y divide-[#E2E8F0] text-left text-sm">
             <thead class="bg-[#F8FAFC] text-[#0F172A]">

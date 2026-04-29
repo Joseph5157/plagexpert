@@ -46,7 +46,7 @@ const services = [
 </script>
 
 <template>
-  <section class="bg-white px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-white px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
@@ -62,7 +62,7 @@ const services = [
         </p>
       </div>
 
-      <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
+      <div class="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
         <article
           v-for="service in services"
           :key="service.title"

@@ -11,7 +11,7 @@ const steps = [
 </script>
 
 <template>
-  <section class="bg-[#EFF6FF] px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-[#EFF6FF] px-4 py-12 sm:py-16 lg:py-20">
     <div class="mx-auto max-w-7xl">
       <div class="md:hidden">
         <div class="rounded-[2rem] bg-white p-6 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">

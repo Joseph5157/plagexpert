@@ -9,7 +9,7 @@ const stats = [
 </script>
 
 <template>
-  <section class="bg-[linear-gradient(135deg,#0B1F3A_0%,#2563EB_100%)] px-4 py-16 sm:py-20 lg:py-24 text-white">
+  <section class="bg-[linear-gradient(135deg,#0B1F3A_0%,#2563EB_100%)] px-4 py-8 sm:py-10 lg:py-12 text-white">
     <div class="mx-auto max-w-7xl">
       <div class="sm:hidden">
         <div class="flex items-center justify-center gap-2 overflow-x-auto rounded-[1.5rem] border border-white/15 bg-white/10 px-4 py-3 shadow-[0_16px_40px_rgba(11,31,58,0.18)] backdrop-blur">
