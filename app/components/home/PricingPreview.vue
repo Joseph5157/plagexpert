@@ -42,7 +42,7 @@ const otherPlans = [
     price: '₹200',
     unit: 'per file',
     description: 'Plagiarism and AI detection via Drillbit.',
-    cta: 'Buy on WhatsApp',
+    cta: 'Select Plan',
     whatsapp: true
   },
   {
@@ -51,7 +51,7 @@ const otherPlans = [
     price: 'Custom',
     unit: 'contact us',
     description: 'Expert content improvement for originality and AI score reduction.',
-    cta: 'Chat on WhatsApp',
+    cta: 'Select Plan',
     whatsapp: true
   },
   {
@@ -60,7 +60,7 @@ const otherPlans = [
     price: 'Custom',
     unit: 'contact us',
     description: 'Professional thesis writing support for research and formatting.',
-    cta: 'Chat on WhatsApp',
+    cta: 'Select Plan',
     whatsapp: true
   }
 ]
@@ -119,7 +119,7 @@ const otherPlans = [
               :href="getWhatsAppUrl()"
               class="mt-auto pt-5 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
             >
-              Buy on WhatsApp
+              Select Plan
             </a>
           </div>
         </div>
