@@ -42,20 +42,14 @@ const closeMobileMenu = () => {
             {{ link.label }}
           </NuxtLink>
 
-          <a
-            :href="portalLoginUrl"
-            class="rounded-full px-4 py-2 text-sm font-semibold text-[#334155] transition duration-200 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
-          >
-            Portal Login
-          </a>
         </nav>
 
         <div class="hidden md:block">
           <a
-            :href="getWhatsAppUrl()"
-            class="inline-flex rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
+            :href="portalLoginUrl"
+            class="inline-flex rounded-full border border-[#E2E8F0] bg-white px-5 py-2.5 text-sm font-semibold text-[#0F172A] shadow-sm transition duration-200 hover:border-[#2563EB] hover:bg-[#EFF6FF]"
           >
-            WhatsApp
+            Login Portal
           </a>
         </div>
 
@@ -124,18 +118,10 @@ const closeMobileMenu = () => {
 
             <a
               :href="portalLoginUrl"
-              class="rounded-2xl px-4 py-3 text-sm font-semibold text-[#334155] transition duration-200 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
+              class="mt-1 inline-flex items-center justify-center rounded-full border border-[#E2E8F0] bg-white px-4 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition duration-200 hover:border-[#2563EB] hover:bg-[#EFF6FF]"
               @click="closeMobileMenu"
             >
-              Portal Login
-            </a>
-
-            <a
-              :href="getWhatsAppUrl()"
-              class="mt-1 inline-flex items-center justify-center rounded-full bg-[#16A34A] px-4 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
-              @click="closeMobileMenu"
-            >
-              WhatsApp
+              Login Portal
             </a>
           </nav>
         </div>
