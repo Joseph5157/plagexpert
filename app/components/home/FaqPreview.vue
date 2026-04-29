@@ -62,7 +62,7 @@ const faqs = [
 
           <NuxtLink
             to="/faq"
-            class="mt-6 inline-flex w-full justify-center rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF] sm:w-auto"
+            class="mt-6 flex w-full items-center justify-center rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF] sm:w-auto"
           >
             View all FAQs
           </NuxtLink>

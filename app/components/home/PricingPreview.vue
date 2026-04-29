@@ -118,7 +118,7 @@ const otherPlans = [
             <div class="mt-auto pt-5">
               <a
                 :href="getWhatsAppUrl()"
-                class="inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+                class="flex w-full items-center justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
               >
                 Select Plan
               </a>
@@ -154,7 +154,7 @@ const otherPlans = [
             <div class="mt-auto pt-5">
               <a
                 :href="getWhatsAppUrl()"
-                class="inline-flex w-full justify-center rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
+                class="flex w-full items-center justify-center rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
               >
                 {{ plan.cta }}
               </a>
