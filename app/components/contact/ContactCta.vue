@@ -3,7 +3,7 @@ const portalUploadUrl = getPortalUploadUrl()
 </script>
 
 <template>
-  <section class="px-4 py-6 sm:py-10 lg:py-14">
+  <section class="px-4 pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-12">
     <div class="mx-auto max-w-7xl">
       <div class="overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-[linear-gradient(135deg,#0B1F3A_0%,#102A4D_55%,#2563EB_100%)] px-6 py-10 text-white shadow-[0_28px_70px_rgba(11,31,58,0.26)] sm:px-8 sm:py-12 lg:px-10 lg:py-14">
         <div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">

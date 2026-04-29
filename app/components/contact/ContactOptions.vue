@@ -25,7 +25,7 @@ const options = [
 </script>
 
 <template>
-  <section class="px-4 py-6 sm:py-10 lg:py-14">
+  <section class="px-4 pt-4 pb-6 sm:pt-5 sm:pb-8 lg:pt-6 lg:pb-10">
     <div class="mx-auto max-w-7xl">
       <div class="mb-6 sm:mb-8">
         <p class="inline-flex rounded-full border border-[#E2E8F0] bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#0B1F3A] shadow-sm">

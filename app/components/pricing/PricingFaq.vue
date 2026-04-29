@@ -24,7 +24,7 @@ const faqs = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
+  <section class="bg-[#F8FAFC] px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-10">
         <div>

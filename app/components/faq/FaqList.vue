@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="px-4 py-4 sm:py-6 lg:py-8">
+  <section class="px-4 pt-4 pb-8 sm:pt-4 sm:pb-10 lg:pt-6 lg:pb-12">
     <div class="mx-auto max-w-4xl space-y-8">
       <div
         v-for="section in sections"

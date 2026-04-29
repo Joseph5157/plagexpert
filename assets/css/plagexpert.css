@@ -31,3 +31,10 @@ body {
   background: var(--plagexpert-soft-cta);
   color: var(--plagexpert-primary-navy);
 }
+
+@media print {
+  header {
+    position: relative !important;
+    top: auto !important;
+  }
+}

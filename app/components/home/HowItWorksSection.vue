@@ -9,7 +9,7 @@ const steps = [
 </script>
 
 <template>
-  <section id="how-it-works" class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
+  <section id="how-it-works" class="bg-[#F8FAFC] px-4 pt-6 pb-4 sm:pt-8 sm:pb-6 lg:pt-10 lg:pb-8">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl md:text-5xl">
@@ -17,7 +17,7 @@ const steps = [
         </h2>
       </div>
 
-      <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 xl:grid-cols-4 sm:gap-6">
+      <div class="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 xl:grid-cols-4 sm:gap-6">
         <div class="rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] sm:p-7">
           <h3 class="font-bold tracking-tight text-[#0F172A]">1. Choose service</h3>
           <p class="mt-3 text-sm leading-7 text-[#334155]">
