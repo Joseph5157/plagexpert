@@ -42,7 +42,7 @@ const otherPlans = [
     price: '₹200',
     unit: 'per file',
     description: 'Plagiarism and AI detection via Drillbit.',
-    cta: 'Select Plan',
+    cta: 'Select Service',
     whatsapp: true
   },
   {
@@ -51,7 +51,7 @@ const otherPlans = [
     price: 'Custom',
     unit: 'contact us',
     description: 'Expert content improvement for originality and AI score reduction.',
-    cta: 'Select Plan',
+    cta: 'Select Service',
     whatsapp: true
   },
   {
@@ -60,7 +60,7 @@ const otherPlans = [
     price: 'Custom',
     unit: 'contact us',
     description: 'Professional thesis writing support for research and formatting.',
-    cta: 'Select Plan',
+    cta: 'Select Service',
     whatsapp: true
   }
 ]
