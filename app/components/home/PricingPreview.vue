@@ -74,10 +74,10 @@ const otherPlans = [
           Pricing
         </p>
         <h2 class="mt-3 text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl md:text-5xl">
-          Simple plans for every report need
+          Choose the Right Plan for Your Document
         </h2>
         <p class="mt-4 text-base leading-7 text-[#334155] md:text-lg">
-          Choose based on file count and service type. All Turnitin plans include plagiarism and AI detection.
+          Pay only for what you need — from single file checks to bulk plans for thesis and repeated submissions.
         </p>
       </div>
 
