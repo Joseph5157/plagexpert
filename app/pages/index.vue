@@ -8,6 +8,7 @@
     <StatsSection />
     <PricingPreview />
     <FaqPreview />
+    <ContactSection />
   </main>
 </template>
 
@@ -20,4 +21,5 @@ import ServicesPreview from '~/components/home/ServicesPreview.vue'
 import StatsSection from '~/components/home/StatsSection.vue'
 import PricingPreview from '~/components/home/PricingPreview.vue'
 import FaqPreview from '~/components/home/FaqPreview.vue'
+import ContactSection from '~/components/home/ContactSection.vue'
 </script>
