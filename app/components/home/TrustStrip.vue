@@ -1,11 +1,11 @@
 <script setup>
 const tags = [
-  'Turnitin',
-  'Drillbit',
-  'AI Detection',
-  'Paraphrasing',
-  'References',
-  'Journal Ready'
+  'Turnitin Plag Report',
+  'Turnitin AI Report',
+  'Drillbit Plag & AI Report',
+  'Plag Removal',
+  'AI Removal',
+  'Thesis Writing'
 ]
 </script>
 

@@ -9,8 +9,6 @@
     <AudienceSection />
     <PricingPreview />
     <FaqPreview />
-    <ConfidentialSection />
-    <FinalCtaSection />
   </main>
 </template>
 
@@ -24,6 +22,4 @@ import StatsSection from '~/components/home/StatsSection.vue'
 import AudienceSection from '~/components/home/AudienceSection.vue'
 import PricingPreview from '~/components/home/PricingPreview.vue'
 import FaqPreview from '~/components/home/FaqPreview.vue'
-import ConfidentialSection from '~/components/home/ConfidentialSection.vue'
-import FinalCtaSection from '~/components/home/FinalCtaSection.vue'
 </script>

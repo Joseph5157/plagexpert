@@ -1,12 +1,45 @@
 <script setup>
 const faqs = [
-  { question: 'Do you store my document?', answer: 'No. Documents are processed for the report workflow and deleted after delivery.' },
-  { question: 'How fast is delivery?', answer: 'Most reports are delivered within 10-30 minutes depending on file size and queue.' },
-  { question: 'Will my professor see it beforehand?', answer: 'No. The report is delivered only to you through the selected contact method.' },
-  { question: 'Turnitin vs Drillbit - which should I choose?', answer: 'Choose based on your college or university requirement. If unsure, message us on WhatsApp and we will guide you.' },
-  { question: 'Is AI detection included?', answer: 'AI detection support is available for selected report workflows and plans.' },
-  { question: 'How do I submit my file?', answer: 'Message us on WhatsApp, select your plan, receive portal access or a guest upload link, and upload through the secure portal.' },
-  { question: 'Can I track my report?', answer: 'Yes. After processing, you can track and download your report through the portal.' }
+  {
+    question: 'How do I start using PlagExpert?',
+    answer: 'First, check the plan details and message us on WhatsApp. Select the service you need, complete the payment, and send your full name. After payment confirmation, we will send you an invite link to create your Portal ID through Telegram.'
+  },
+  {
+    question: 'Why do I need Telegram?',
+    answer: 'Telegram is required to create your Portal ID, receive login OTPs, get real-time report status updates, and receive notifications when your report is ready.'
+  },
+  {
+    question: 'How do I submit my file?',
+    answer: 'After creating your Portal ID, visit the PlagExpert portal, enter your Portal ID, verify with the Telegram OTP, and upload your document directly through the portal.'
+  },
+  {
+    question: 'How fast is report delivery?',
+    answer: 'Most reports are completed within 10–30 minutes, depending on file size, selected service, and current queue.'
+  },
+  {
+    question: 'Can I track my report status?',
+    answer: 'Yes. You will receive Telegram notifications at every important stage, including upload confirmation, processing updates, and final report readiness.'
+  },
+  {
+    question: 'Where do I download my report?',
+    answer: 'Once your report is ready, you will receive a Telegram notification. Then you can log in to your portal dashboard and download the final report.'
+  },
+  {
+    question: 'Do you store my document?',
+    answer: 'Your document is handled securely and used only for generating your report. After report delivery, files are removed according to our internal safety process.'
+  },
+  {
+    question: 'Is AI detection included?',
+    answer: 'AI detection is included in Turnitin plans. Please check the plan details or message us on WhatsApp before payment.'
+  },
+  {
+    question: 'Turnitin vs Drillbit — which should I choose?',
+    answer: 'Turnitin is commonly preferred for university-style similarity and AI checks. Drillbit is another plagiarism and AI checking option. The best choice depends on your requirement and university guidelines.'
+  },
+  {
+    question: 'Will my professor or university see my file?',
+    answer: 'No. Your file is processed privately through the selected checking service and is not submitted to your professor or university before your final submission.'
+  }
 ]
 </script>
 
@@ -24,8 +57,7 @@ const faqs = [
           </h2>
 
           <p class="mt-4 text-base leading-7 text-[#334155] md:text-lg">
-            Clear answers about document safety, delivery, reports, payments,
-            and the WhatsApp process.
+            Clear answers about plans, payment, Portal ID setup, Telegram login, file upload, report delivery, and document safety.
           </p>
 
           <NuxtLink
@@ -38,7 +70,7 @@ const faqs = [
 
         <div class="space-y-3 md:hidden">
           <details
-            v-for="faq in faqs.slice(0, 3)"
+            v-for="faq in faqs.slice(0, 4)"
             :key="faq.question"
             class="group rounded-[1.75rem] border border-[#E2E8F0] bg-white p-5 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
           >
@@ -46,10 +78,7 @@ const faqs = [
               <span>{{ faq.question }}</span>
               <span class="text-2xl leading-none text-[#0D9488] transition group-open:rotate-45">+</span>
             </summary>
-
-            <p class="mt-4 text-sm leading-7 text-[#334155]">
-              {{ faq.answer }}
-            </p>
+            <p class="mt-4 text-sm leading-7 text-[#334155]">{{ faq.answer }}</p>
           </details>
         </div>
 
@@ -63,10 +92,7 @@ const faqs = [
               <span>{{ faq.question }}</span>
               <span class="text-2xl leading-none text-[#0D9488] transition group-open:rotate-45">+</span>
             </summary>
-
-            <p class="mt-4 text-sm leading-7 text-[#334155]">
-              {{ faq.answer }}
-            </p>
+            <p class="mt-4 text-sm leading-7 text-[#334155]">{{ faq.answer }}</p>
           </details>
         </div>
       </div>
