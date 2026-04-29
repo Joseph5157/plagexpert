@@ -115,12 +115,14 @@ const otherPlans = [
               </li>
             </ul>
 
-            <a
-              :href="getWhatsAppUrl()"
-              class="mt-auto pt-5 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
-            >
-              Select Plan
-            </a>
+            <div class="mt-auto pt-5">
+              <a
+                :href="getWhatsAppUrl()"
+                class="inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+              >
+                Select Plan
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -149,12 +151,14 @@ const otherPlans = [
               <span class="ml-1 text-sm text-[#64748B]">{{ plan.unit }}</span>
             </div>
             <p class="mt-3 text-sm leading-7 text-[#334155]">{{ plan.description }}</p>
-            <a
-              :href="getWhatsAppUrl()"
-              class="mt-auto pt-5 inline-flex w-full justify-center rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
-            >
-              {{ plan.cta }}
-            </a>
+            <div class="mt-auto pt-5">
+              <a
+                :href="getWhatsAppUrl()"
+                class="inline-flex w-full justify-center rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
+              >
+                {{ plan.cta }}
+              </a>
+            </div>
           </div>
         </div>
       </div>
