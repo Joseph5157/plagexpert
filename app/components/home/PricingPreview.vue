@@ -1,7 +1,7 @@
 <script setup>
 const turnitinPlans = [
   {
-    name: 'Basic',
+    name: 'Single File',
     price: '₹99',
     files: '1 file',
     perFile: null,
@@ -9,7 +9,7 @@ const turnitinPlans = [
     features: ['Turnitin similarity report', 'AI detection report', 'PDF delivery']
   },
   {
-    name: 'Standard',
+    name: 'Basic Plan',
     price: '₹450',
     files: '5 files',
     perFile: '₹90/file',
@@ -17,7 +17,7 @@ const turnitinPlans = [
     features: ['5 report checks', 'AI detection included', 'Fast support']
   },
   {
-    name: 'Monthly',
+    name: 'Standard Plan',
     price: '₹1,275',
     files: '15 files',
     perFile: '₹85/file',
@@ -26,7 +26,7 @@ const turnitinPlans = [
     features: ['15 report checks', 'Best for thesis drafts', 'Priority support']
   },
   {
-    name: 'Department',
+    name: 'Monthly Plan',
     price: '₹2,400',
     files: '30 files',
     perFile: '₹80/file',
