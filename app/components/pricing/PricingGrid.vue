@@ -1,40 +1,37 @@
 <script setup>
 const plans = [
   {
-    name: 'Basic',
+    name: 'Single File',
     price: '₹99',
     files: '1 file',
-    description: 'Best for one quick report check.',
-    features: ['Similarity report', 'PDF delivery', 'WhatsApp support']
+    perFile: null,
+    description: 'Best for a single quick report check.',
+    features: ['Turnitin similarity report', 'AI detection report', 'PDF delivery']
   },
   {
-    name: 'Standard',
-    price: '₹399',
+    name: 'Basic Plan',
+    price: '₹450',
     files: '5 files',
+    perFile: '₹90/file',
     description: 'Good for project reports and small batches.',
-    features: ['5 report checks', 'PDF delivery', 'Fast support']
+    features: ['5 report checks', 'AI detection included', 'Fast support']
   },
   {
-    name: 'Student',
-    price: '₹1,149',
+    name: 'Standard Plan',
+    price: '₹1,275',
     files: '15 files',
+    perFile: '₹85/file',
     description: 'Best value for thesis and repeated checks.',
     popular: true,
-    features: ['15 report checks', 'Best for thesis drafts', 'Priority support', 'Best overall value']
+    features: ['15 report checks', 'Best for thesis drafts', 'Priority support']
   },
   {
-    name: 'Department',
-    price: '₹2,949',
+    name: 'Monthly Plan',
+    price: '₹2,400',
     files: '30 files',
+    perFile: '₹80/file',
     description: 'For departments and multiple submissions.',
     features: ['30 report checks', 'Bulk workflow', 'Department support']
-  },
-  {
-    name: 'Enterprise',
-    price: 'Custom',
-    files: '50+ files',
-    description: 'For institutions and large-volume needs.',
-    features: ['Custom volume', 'Multi-user workflow', 'Custom pricing']
   }
 ]
 </script>
@@ -52,7 +49,7 @@ const plans = [
         </h2>
       </div>
 
-      <div class="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 sm:gap-6">
+      <div class="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 xl:grid-cols-4 sm:gap-6">
         <article
           v-for="plan in plans"
           :key="plan.name"
@@ -77,7 +74,7 @@ const plans = [
           </div>
 
           <p class="mt-1 text-sm font-semibold text-[#0D9488]">
-            {{ plan.files }}
+            {{ plan.files }}<span v-if="plan.perFile" class="ml-2 font-normal text-[#64748B]">· {{ plan.perFile }}</span>
           </p>
 
           <p class="mt-4 text-sm leading-7 text-[#334155]">
@@ -99,14 +96,14 @@ const plans = [
             :href="getWhatsAppUrl()"
             class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
           >
-            Buy on WhatsApp
+            Select Plan
           </a>
         </article>
       </div>
 
       <div class="mt-8 rounded-[1.75rem] border border-[#E2E8F0] bg-[#EFF6FF] p-5 text-sm leading-7 text-[#334155] shadow-sm">
         <span class="font-semibold text-[#0F172A]">
-          Buying Basic 15 times costs ₹1,485 vs Student ₹1,149.
+          Savings example: Buying Single File 15× costs ₹1,485 vs Standard Plan ₹1,275.
         </span>
       </div>
     </div>

@@ -1,11 +1,12 @@
 <script setup>
 const rows = [
-  { label: 'Number of files', basic: '1', standard: '5', student: '15', department: '30', enterprise: '50+' },
-  { label: 'PDF report delivery', basic: 'Yes', standard: 'Yes', student: 'Yes', department: 'Yes', enterprise: 'Yes' },
-  { label: 'WhatsApp support', basic: 'Yes', standard: 'Yes', student: 'Priority', department: 'Priority', enterprise: 'Priority' },
-  { label: 'Best for', basic: 'One-off checks', standard: 'Small batches', student: 'Thesis drafts', department: 'Departments', enterprise: 'Institutions' },
-  { label: 'Bulk workflow', basic: 'No', standard: 'Limited', student: 'Some', department: 'Yes', enterprise: 'Yes' },
-  { label: 'Custom pricing', basic: 'No', standard: 'No', student: 'No', department: 'No', enterprise: 'Yes' }
+  { label: 'Number of files', singleFile: '1', basicPlan: '5', standardPlan: '15', monthlyPlan: '30' },
+  { label: 'Price per file', singleFile: '₹99', basicPlan: '₹90', standardPlan: '₹85', monthlyPlan: '₹80' },
+  { label: 'AI detection report', singleFile: 'Yes', basicPlan: 'Yes', standardPlan: 'Yes', monthlyPlan: 'Yes' },
+  { label: 'PDF report delivery', singleFile: 'Yes', basicPlan: 'Yes', standardPlan: 'Yes', monthlyPlan: 'Yes' },
+  { label: 'WhatsApp support', singleFile: 'Yes', basicPlan: 'Yes', standardPlan: 'Priority', monthlyPlan: 'Priority' },
+  { label: 'Best for', singleFile: 'One-off checks', basicPlan: 'Small batches', standardPlan: 'Thesis drafts', monthlyPlan: 'Bulk submissions' },
+  { label: 'Bulk workflow', singleFile: 'No', basicPlan: 'Limited', standardPlan: 'Some', monthlyPlan: 'Yes' }
 ]
 </script>
 
@@ -34,24 +35,20 @@ const rows = [
 
           <div class="mt-4 grid grid-cols-2 gap-3 text-sm text-[#334155]">
             <div>
-              <p class="font-semibold text-[#0B1F3A]">Basic</p>
-              <p class="mt-1">{{ row.basic }}</p>
+              <p class="font-semibold text-[#0B1F3A]">Single File</p>
+              <p class="mt-1">{{ row.singleFile }}</p>
             </div>
             <div>
-              <p class="font-semibold text-[#0B1F3A]">Standard</p>
-              <p class="mt-1">{{ row.standard }}</p>
+              <p class="font-semibold text-[#0B1F3A]">Basic Plan</p>
+              <p class="mt-1">{{ row.basicPlan }}</p>
             </div>
             <div>
-              <p class="font-semibold text-[#0B1F3A]">Student</p>
-              <p class="mt-1">{{ row.student }}</p>
+              <p class="font-semibold text-[#0B1F3A]">Standard Plan</p>
+              <p class="mt-1">{{ row.standardPlan }}</p>
             </div>
             <div>
-              <p class="font-semibold text-[#0B1F3A]">Department</p>
-              <p class="mt-1">{{ row.department }}</p>
-            </div>
-            <div class="col-span-2">
-              <p class="font-semibold text-[#0B1F3A]">Enterprise</p>
-              <p class="mt-1">{{ row.enterprise }}</p>
+              <p class="font-semibold text-[#0B1F3A]">Monthly Plan</p>
+              <p class="mt-1">{{ row.monthlyPlan }}</p>
             </div>
           </div>
         </article>
@@ -63,21 +60,19 @@ const rows = [
             <thead class="bg-[#F8FAFC] text-[#0F172A]">
               <tr>
                 <th class="px-5 py-4 font-semibold">Comparison</th>
-                <th class="px-5 py-4 font-semibold">Basic</th>
-                <th class="px-5 py-4 font-semibold">Standard</th>
-                <th class="px-5 py-4 font-semibold">Student</th>
-                <th class="px-5 py-4 font-semibold">Department</th>
-                <th class="px-5 py-4 font-semibold">Enterprise</th>
+                <th class="px-5 py-4 font-semibold">Single File</th>
+                <th class="px-5 py-4 font-semibold">Basic Plan</th>
+                <th class="px-5 py-4 font-semibold">Standard Plan</th>
+                <th class="px-5 py-4 font-semibold">Monthly Plan</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-[#E2E8F0] text-[#334155]">
               <tr v-for="row in rows" :key="row.label">
                 <td class="px-5 py-4 font-semibold text-[#0F172A]">{{ row.label }}</td>
-                <td class="px-5 py-4">{{ row.basic }}</td>
-                <td class="px-5 py-4">{{ row.standard }}</td>
-                <td class="px-5 py-4">{{ row.student }}</td>
-                <td class="px-5 py-4">{{ row.department }}</td>
-                <td class="px-5 py-4">{{ row.enterprise }}</td>
+                <td class="px-5 py-4">{{ row.singleFile }}</td>
+                <td class="px-5 py-4">{{ row.basicPlan }}</td>
+                <td class="px-5 py-4">{{ row.standardPlan }}</td>
+                <td class="px-5 py-4">{{ row.monthlyPlan }}</td>
               </tr>
             </tbody>
           </table>
