@@ -6,7 +6,6 @@
     <HowItWorksSection />
     <ServicesPreview />
     <StatsSection />
-    <AudienceSection />
     <PricingPreview />
     <FaqPreview />
   </main>
@@ -19,7 +18,6 @@ import TrustSection from '~/components/home/TrustSection.vue'
 import HowItWorksSection from '~/components/home/HowItWorksSection.vue'
 import ServicesPreview from '~/components/home/ServicesPreview.vue'
 import StatsSection from '~/components/home/StatsSection.vue'
-import AudienceSection from '~/components/home/AudienceSection.vue'
 import PricingPreview from '~/components/home/PricingPreview.vue'
 import FaqPreview from '~/components/home/FaqPreview.vue'
 </script>
