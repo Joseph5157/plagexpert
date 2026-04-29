@@ -64,14 +64,6 @@ const services = [
           <p class="mt-3 text-sm leading-7 text-[#334155]">{{ service.description }}</p>
         </div>
 
-        <div class="mt-2 text-center">
-          <NuxtLink
-            to="/services"
-            class="inline-flex w-full justify-center rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF]"
-          >
-            View all services
-          </NuxtLink>
-        </div>
       </div>
 
       <!-- Desktop: show all 5 cards -->
@@ -109,14 +101,6 @@ const services = [
         </div>
       </div>
 
-      <div class="mt-6 hidden text-center sm:block">
-        <NuxtLink
-          to="/services"
-          class="inline-flex rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF]"
-        >
-          View all services
-        </NuxtLink>
-      </div>
     </div>
   </section>
 </template>
