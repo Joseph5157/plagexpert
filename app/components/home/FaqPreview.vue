@@ -44,7 +44,7 @@ const faqs = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 pt-4 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-12">
+  <section id="faq" class="bg-[#F8FAFC] px-4 pt-4 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-12">
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:gap-10">
         <div>

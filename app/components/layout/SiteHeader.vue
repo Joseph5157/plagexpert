@@ -4,10 +4,10 @@ const mobileMenuOpen = ref(false)
 
 const navLinks = [
   { label: 'Home', to: '/' },
-  { label: 'Services', to: '/services' },
-  { label: 'Pricing', to: '/pricing' },
-  { label: 'FAQ', to: '/faq' },
-  { label: 'Contact', to: '/contact' }
+  { label: 'Services', to: '/#services' },
+  { label: 'Pricing', to: '/#pricing' },
+  { label: 'FAQ', to: '/#faq' },
+  { label: 'Contact', to: '/#contact' }
 ]
 
 const closeMobileMenu = () => {
