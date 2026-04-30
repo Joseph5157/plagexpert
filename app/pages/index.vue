@@ -22,6 +22,61 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'How do I start using PlagExpert?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Check the plan details and message us on WhatsApp. Select the service you need, complete the payment, and send your full name. After payment confirmation, we will send you an invite link to create your Portal ID through Telegram.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'How fast is report delivery?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Most reports are completed within 10–30 minutes, depending on file size, selected service, and current queue.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Do you store my document?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Your document is handled securely and used only for generating your report. After report delivery, files are removed according to our internal safety process.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Is AI detection included?',
+            acceptedAnswer: { '@type': 'Answer', text: 'AI detection is included in Turnitin plans. Please check the plan details or message us on WhatsApp before payment.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Will my professor or university see my file?',
+            acceptedAnswer: { '@type': 'Answer', text: 'No. Your file is processed privately through the selected checking service and is not submitted to your professor or university before your final submission.' }
+          }
+        ]
+      })
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'PlagExpert',
+        url: 'https://plagexpert.in',
+        logo: 'https://plagexpert.in/brand/plagexpert-logo.svg',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: '+91-6309872817',
+          contactType: 'customer support',
+          availableLanguage: ['English', 'Hindi']
+        }
+      })
+    }
+  ]
+})
+
 import HeroSection from '~/components/home/HeroSection.vue'
 import TrustStrip from '~/components/home/TrustStrip.vue'
 import TrustSection from '~/components/home/TrustSection.vue'

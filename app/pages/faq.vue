@@ -1,4 +1,62 @@
 <script setup>
+useSeoMeta({
+  title: 'FAQ — Common Questions About Plagiarism & AI Reports | PlagExpert',
+  description: 'Answers to common questions about Turnitin & Drillbit reports, document safety, delivery time, portal access, AI detection, and pricing. Get help fast on WhatsApp.',
+  ogTitle: 'PlagExpert FAQ — Plagiarism & AI Report Questions Answered',
+  ogDescription: 'Everything you need to know about report delivery, document safety, pricing, and portal access at PlagExpert.',
+  ogImage: '/illustrations/hero-student-portal.png',
+  twitterCard: 'summary_large_image'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Do you store my document?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Documents are processed only for the report workflow and deleted after delivery.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Is my document added to any public repository?',
+            acceptedAnswer: { '@type': 'Answer', text: 'The workflow is designed for non-repository report handling.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'How fast is delivery?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Most reports are delivered within 10–30 minutes depending on file size and queue.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Is AI detection included?',
+            acceptedAnswer: { '@type': 'Answer', text: 'AI detection support is available for selected report workflows and plans.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Which plan is best for thesis work?',
+            acceptedAnswer: { '@type': 'Answer', text: 'The Standard Plan is usually best for repeated checks and thesis drafts.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'How do I submit my file?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Message us on WhatsApp, choose a plan, receive portal access, and upload through the secure portal.' }
+          },
+          {
+            '@type': 'Question',
+            name: 'Where do I upload my document?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Documents are uploaded through the secure PlagExpert portal.' }
+          }
+        ]
+      })
+    }
+  ]
+})
+
 const categories = [
   'Document Safety',
   'Delivery',
