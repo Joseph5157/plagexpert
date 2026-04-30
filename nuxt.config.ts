@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
     public: {
-      portalUrl: process.env.NUXT_PUBLIC_PORTAL_URL || 'http://localhost:8000'
+      portalUrl: process.env.NUXT_PUBLIC_PORTAL_URL || 'https://portal.plagexpert.in'
     }
   }
 })
