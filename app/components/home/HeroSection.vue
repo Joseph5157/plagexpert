@@ -52,6 +52,9 @@ const portalLoginUrl = getPortalLoginUrl()
             src="/illustrations/hero-student-portal.png"
             alt="Student checking plagiarism report on PlagExpert portal showing 18% similarity and 7% AI detection"
             class="w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
+            width="800"
+            height="600"
+            fetchpriority="high"
           >
         </div>
       </div>

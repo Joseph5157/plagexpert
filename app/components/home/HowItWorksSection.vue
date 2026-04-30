@@ -5,6 +5,9 @@
         src="/illustrations/how-it-works.png"
         alt="How PlagExpert Works: Pay on WhatsApp, Create Portal ID via Telegram, Login with OTP, Upload and Download Report"
         class="w-full rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_18px_50px_rgba(16,24,40,0.08)]"
+        width="1200"
+        height="600"
+        loading="lazy"
       >
     </div>
   </section>
