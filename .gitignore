@@ -1,5 +1,5 @@
 # Nuxt dev/build outputs
-.output
+# .output is committed for Hostinger deployment (build happens locally)
 .data
 .nuxt
 .nitro

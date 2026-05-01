@@ -1,0 +1,48 @@
+name: Build and Deploy to Hostinger
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Nuxt app
+        run: npm run build
+        env:
+          NUXT_PUBLIC_PORTAL_URL: ${{ secrets.NUXT_PUBLIC_PORTAL_URL }}
+
+      - name: Deploy to Hostinger via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          password: ${{ secrets.HOSTINGER_PASSWORD }}
+          port: 22
+          script: |
+            cd ${{ secrets.HOSTINGER_APP_PATH }}
+            rm -rf .output
+
+      - name: Copy built files to Hostinger
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          password: ${{ secrets.HOSTINGER_PASSWORD }}
+          port: 22
+          source: ".output/"
+          target: ${{ secrets.HOSTINGER_APP_PATH }}
