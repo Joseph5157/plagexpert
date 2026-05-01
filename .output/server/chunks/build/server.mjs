@@ -582,32 +582,32 @@ const _routes = [
   {
     name: "contact",
     path: "/contact",
-    component: () => import('./contact-BpxvglbG.mjs')
+    component: () => import('./contact-DWkEzhR7.mjs')
   },
   {
     name: "faq",
     path: "/faq",
-    component: () => import('./faq-D6Rsbnbf.mjs')
+    component: () => import('./faq-3dBpKwVW.mjs')
   },
   {
     name: "legal",
     path: "/legal",
-    component: () => import('./legal-CmIJZsC8.mjs')
+    component: () => import('./legal-BieyyhPn.mjs')
   },
   {
     name: "pricing",
     path: "/pricing",
-    component: () => import('./pricing-Ch4a7yCy.mjs')
+    component: () => import('./pricing-AvYDxwsO.mjs')
   },
   {
     name: "services",
     path: "/services",
-    component: () => import('./services-CaaQnMlr.mjs')
+    component: () => import('./services-B1IoMHV0.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CPu3POq5.mjs')
+    component: () => import('./index-DTZ7Zxrv.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -1003,7 +1003,7 @@ const plugins = [
   components_plugin_4kY4pyzJIYX99vmMAAIorFf3CnAaptHitJgf7JxiED8
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-0noBWLrE.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-_kehwsXO.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({
@@ -1289,7 +1289,7 @@ const _sfc_main$1 = {
     const statusText = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-BeIPx1cw.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-C2hXDfGE.mjs'));
     const _Error = defineAsyncComponent(() => import('./error-500-eI6RtHiU.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
@@ -1371,5 +1371,5 @@ let entry;
 }
 const entry_default = ((ssrContext) => entry(ssrContext));
 
-export { useSeoMeta as a, useRuntimeConfig as b, useRouter as c, useNuxtApp as d, entry_default as default, encodeRoutePath as e, nuxtLinkDefaults as f, navigateTo as n, resolveRouteObject as r, useHead as u };
+export { useSeoMeta as a, useRouter as b, useNuxtApp as c, useRuntimeConfig as d, entry_default as default, encodeRoutePath as e, nuxtLinkDefaults as f, navigateTo as n, resolveRouteObject as r, useHead as u };
 //# sourceMappingURL=server.mjs.map

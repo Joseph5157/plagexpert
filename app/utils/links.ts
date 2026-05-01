@@ -1,8 +1,4 @@
-export const getPortalUrl = () => {
-  const runtimeConfig = useRuntimeConfig()
-
-  return runtimeConfig.public.portalUrl || 'http://localhost:8000'
-}
+export const getPortalUrl = () => 'https://portal.plagexpert.in'
 
 export const getPortalLoginUrl = () => getPortalUrl()
 

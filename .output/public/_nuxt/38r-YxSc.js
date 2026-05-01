@@ -1,0 +1,1 @@
+const t=()=>"https://portal.plagexpert.in",n=()=>t(),p=()=>t(),r=()=>"916309872817",s="Hi PlagExpert! 👋 I'm interested in your plagiarism and AI report services. Can you help me get started?",l=e=>`${`https://wa.me/${r()}`}?text=${encodeURIComponent(e??s)}`;export{p as a,n as b,l as g};
