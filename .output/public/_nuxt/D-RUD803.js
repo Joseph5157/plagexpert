@@ -1,1 +1,0 @@
-import{k as o}from"./NtgtbAHM.js";const e=()=>o().public.portalUrl||"http://localhost:8000",p=()=>e(),i=()=>e(),r=()=>"916309872817",n="Hi PlagExpert! 👋 I'm interested in your plagiarism and AI report services. Can you help me get started?",c=t=>`${`https://wa.me/${r()}`}?text=${encodeURIComponent(t??n)}`;export{i as a,p as b,c as g};
