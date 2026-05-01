@@ -3,21 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: process.env.NODE_ENV === 'development' },
   css: ['~/assets/css/plagexpert.css'],
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
-  site: {
-    url: 'https://plagexpert.in',
-    name: 'PlagExpert'
-  },
-  sitemap: {
-    strictNuxtContentPaths: false,
-    urls: [
-      { loc: '/', changefreq: 'weekly', priority: 1.0 },
-      { loc: '/services', changefreq: 'monthly', priority: 0.8 },
-      { loc: '/pricing', changefreq: 'weekly', priority: 0.9 },
-      { loc: '/faq', changefreq: 'monthly', priority: 0.7 },
-      { loc: '/contact', changefreq: 'monthly', priority: 0.7 }
-    ]
-  },
+  modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
