@@ -25,7 +25,7 @@ const closeMobileMenu = () => {
           @click="closeMobileMenu"
         >
           <img
-            src="/brand/plagexpert-logo.svg"
+            src="/brand/plagexpert-logo.png"
             alt="PlagExpert"
             class="h-10 w-auto sm:h-12"
           >

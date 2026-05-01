@@ -67,7 +67,7 @@ useHead({
         '@type': 'Organization',
         name: 'PlagExpert',
         url: 'https://plagexpert.in',
-        logo: 'https://plagexpert.in/brand/plagexpert-logo.svg',
+        logo: 'https://plagexpert.in/brand/plagexpert-logo.png',
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+91-6309872817',

@@ -4,7 +4,7 @@
       <div class="md:hidden">
         <NuxtLink to="/" class="inline-flex">
           <img
-            src="/brand/plagexpert-logo.svg"
+            src="/brand/plagexpert-logo.png"
             alt="PlagExpert"
             class="h-11 w-auto rounded-xl bg-white px-2 py-1"
           >
@@ -50,7 +50,7 @@
           <div>
             <NuxtLink to="/" class="inline-flex">
               <img
-                src="/brand/plagexpert-logo.svg"
+                src="/brand/plagexpert-logo.png"
                 alt="PlagExpert"
                 class="h-12 w-auto rounded-xl bg-white px-2 py-1"
               >
