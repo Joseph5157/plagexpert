@@ -1,13 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/', '/services', '/pricing', '/faq', '/contact', '/sitemap.xml']
-    }
-  },
+  devtools: { enabled: process.env.NODE_ENV === 'development' },
   css: ['~/assets/css/plagexpert.css'],
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
   site: {
