@@ -89,11 +89,11 @@ const otherPlans = [
             v-for="plan in turnitinPlans"
             :key="plan.name"
             class="relative flex flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(16,24,40,0.12)]"
-            :class="plan.popular ? 'ring-2 ring-[#2563EB]' : ''"
+            :class="plan.popular ? 'ring-2 ring-[#2563EB] mt-4 sm:mt-0' : ''"
           >
             <div
               v-if="plan.popular"
-              class="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex rounded-full bg-[#2563EB] px-4 py-1 text-xs font-semibold text-white shadow-lg"
+              class="absolute -top-4 left-1/2 -translate-x-1/2 inline-flex rounded-full bg-[#2563EB] px-4 py-1 text-xs font-semibold text-white shadow-lg"
             >
               Most Popular
             </div>

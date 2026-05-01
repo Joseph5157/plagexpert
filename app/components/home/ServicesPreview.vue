@@ -50,20 +50,33 @@ const services = [
         </p>
       </div>
 
-      <!-- Mobile: show 3 cards -->
+      <!-- Mobile: show all 5 cards with features + button -->
       <div class="mt-6 grid gap-4 sm:hidden">
         <div
-          v-for="service in services.slice(0, 3)"
+          v-for="service in services"
           :key="service.title"
-          class="flex h-full flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
+          class="flex flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
         >
           <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#EFF6FF] text-2xl shadow-inner">
             {{ service.icon }}
           </div>
           <h3 class="mt-5 text-lg font-bold tracking-tight text-[#0F172A]">{{ service.title }}</h3>
           <p class="mt-3 text-sm leading-7 text-[#334155]">{{ service.description }}</p>
+          <ul class="mt-4 space-y-2 text-sm text-[#334155]">
+            <li v-for="feature in service.features" :key="feature" class="flex gap-2">
+              <span class="text-[#0D9488]">✓</span>
+              <span>{{ feature }}</span>
+            </li>
+          </ul>
+          <div class="mt-6">
+            <a
+              :href="getWhatsAppUrl()"
+              class="flex w-full items-center justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+            >
+              Select Service
+            </a>
+          </div>
         </div>
-
       </div>
 
       <!-- Desktop: show all 5 cards -->
