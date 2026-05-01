@@ -1,14 +1,16 @@
 <template>
-  <main class="overflow-hidden">
-    <HeroSection />
-    <TrustStrip />
-    <TrustSection />
-    <HowItWorksSection />
-    <ServicesPreview />
-    <StatsSection />
-    <PricingPreview />
-    <FaqPreview />
-    <ContactSection />
+  <main class="flex flex-col overflow-hidden">
+    <!-- Mobile order: Hero→Stats→TrustStrip→TrustSection→HowItWorks→Services→Pricing→FAQ→Contact -->
+    <!-- Desktop order: Hero→TrustStrip→TrustSection→HowItWorks→Services→Stats→Pricing→FAQ→Contact -->
+    <div class="order-1  sm:order-1"><HeroSection /></div>
+    <div class="order-3  sm:order-2"><TrustStrip /></div>
+    <div class="order-4  sm:order-3"><TrustSection /></div>
+    <div class="order-5  sm:order-4"><HowItWorksSection /></div>
+    <div class="order-6  sm:order-5"><ServicesPreview /></div>
+    <div class="order-2  sm:order-6"><StatsSection /></div>
+    <div class="order-7  sm:order-7"><PricingPreview /></div>
+    <div class="order-8  sm:order-8"><FaqPreview /></div>
+    <div class="order-9  sm:order-9"><ContactSection /></div>
   </main>
 </template>
 
