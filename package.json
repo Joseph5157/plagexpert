@@ -3,7 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "echo \"Using pre-built .output - skipping build\"",
+    "build:nuxt": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "start": "node .output/server/index.mjs",
