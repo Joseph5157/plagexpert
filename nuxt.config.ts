@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   ssr: false,
   devtools: { enabled: process.env.NODE_ENV === 'development' },
+  nitro: {
+    externals: {
+      inline: ['vue-bundle-renderer', '@vue/shared', 'vue', 'vue-router', '@vue/runtime-core', '@vue/reactivity']
+    }
+  },
   css: ['~/assets/css/plagexpert.css'],
   modules: ['@nuxtjs/tailwindcss'],
   app: {
