@@ -2,7 +2,7 @@
 const services = [
   {
     icon: '📄',
-    title: 'Turnitin Similarity Check',
+    title: 'Similarity Check',
     description:
       'Get a similarity report that helps you review originality before submission.',
     features: ['Similarity report', 'PDF delivery', 'WhatsApp support']

@@ -11,11 +11,11 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      title: 'PlagExpert — Turnitin & Drillbit Plagiarism & AI Reports for Students',
+      title: 'PlagExpert — Plagiarism & AI Detection Reports for Students',
       meta: [
         {
           name: 'description',
-          content: 'Get accurate Turnitin and Drillbit plagiarism & AI detection reports for your thesis, dissertation, or assignment. Non-repository scans. Delivery in 10–30 minutes. Trusted by 50,000+ students in India.'
+          content: 'Get accurate plagiarism and AI detection reports for your thesis, dissertation, or assignment. Non-repository scans. Delivery in 10–30 minutes. Trusted by 50,000+ students in India.'
         },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' }

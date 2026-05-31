@@ -1,39 +1,47 @@
 <script setup>
+const portalBase = 'https://portal.plagexpert.in'
+
 const plans = [
   {
+    slug: 'student',
     name: 'Single File',
     price: '₹99',
     files: '1 file',
     perFile: null,
     description: 'Best for a single quick report check.',
-    features: ['Turnitin similarity report', 'AI detection report', 'PDF delivery']
+    features: ['Similarity report', 'AI detection report', 'PDF delivery']
   },
   {
+    slug: 'standard',
     name: 'Basic Plan',
-    price: '₹450',
+    price: '₹449',
     files: '5 files',
-    perFile: '₹90/file',
+    perFile: '₹89.80/file',
     description: 'Good for project reports and small batches.',
     features: ['5 report checks', 'AI detection included', 'Fast support']
   },
   {
+    slug: 'research',
     name: 'Standard Plan',
-    price: '₹1,275',
+    price: '₹1,199',
     files: '15 files',
-    perFile: '₹85/file',
+    perFile: '₹79.93/file',
     description: 'Best value for thesis and repeated checks.',
     popular: true,
     features: ['15 report checks', 'Best for thesis drafts', 'Priority support']
   },
   {
+    slug: 'premium',
     name: 'Monthly Plan',
-    price: '₹2,400',
+    price: '₹2,199',
     files: '30 files',
-    perFile: '₹80/file',
+    perFile: '₹73.30/file',
     description: 'For departments and multiple submissions.',
     features: ['30 report checks', 'Bulk workflow', 'Department support']
   }
 ]
+
+const getSignupUrl = (slug) => `${portalBase}/signup?plan=${slug}`
 </script>
 
 <template>
@@ -94,10 +102,10 @@ const plans = [
 
           <div class="mt-auto pt-6">
             <a
-              :href="getWhatsAppUrl()"
+              :href="getSignupUrl(plan.slug)"
               class="flex w-full items-center justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
             >
-              Select Plan
+              Get Started
             </a>
           </div>
         </article>
@@ -105,7 +113,7 @@ const plans = [
 
       <div class="mt-8 rounded-[1.75rem] border border-[#E2E8F0] bg-[#EFF6FF] p-5 text-sm leading-7 text-[#334155] shadow-sm">
         <span class="font-semibold text-[#0F172A]">
-          Savings example: Buying Single File 15× costs ₹1,485 vs Standard Plan ₹1,275.
+          Savings example: Buying Single File 15× costs ₹1,485 vs Standard Plan ₹1,199. Save ₹286.
         </span>
       </div>
     </div>

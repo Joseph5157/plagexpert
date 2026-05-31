@@ -1,9 +1,9 @@
 <script setup>
 const services = [
   {
-    title: 'Turnitin Plagiarism & AI Checking',
-    description: 'Get a detailed Turnitin similarity and AI report for your academic document before final submission.',
-    features: ['Turnitin similarity report', 'AI detection report', 'PDF report delivery'],
+    title: 'Plagiarism & AI Checking',
+    description: 'Get a detailed similarity and AI detection report for your academic document before final submission.',
+    features: ['Similarity report', 'AI detection report', 'PDF report delivery'],
     icon: '📄'
   },
   {

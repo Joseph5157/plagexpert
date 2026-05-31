@@ -10,10 +10,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Pricing — Turnitin & Drillbit Plans | PlagExpert',
-  description: 'Affordable Turnitin plagiarism & AI report plans starting at ₹99. Single File, Basic Plan, Standard Plan, and Monthly Plan. Pay only for what you need.',
+  title: 'Pricing — Plagiarism & AI Detection Plans | PlagExpert',
+  description: 'Affordable plagiarism & AI detection report plans starting at ₹99. Single File, Basic Plan, Standard Plan, and Monthly Plan. Pay only for what you need.',
   ogTitle: 'PlagExpert Pricing — Plans from ₹99',
-  ogDescription: 'Single File ₹99, Basic Plan ₹450, Standard Plan ₹1,275, Monthly Plan ₹2,400. Turnitin & Drillbit reports for students.',
+  ogDescription: 'Single File ₹99, Basic Plan ₹449, Standard Plan ₹1,199, Monthly Plan ₹2,199. Plagiarism & AI detection reports for students.',
   ogImage: '/illustrations/hero-student-portal.png',
   twitterCard: 'summary_large_image'
 })

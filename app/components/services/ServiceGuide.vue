@@ -3,7 +3,7 @@ const recommendations = [
   {
     icon: '🎓',
     title: 'For thesis or dissertation',
-    description: 'Use Turnitin or Drillbit similarity report support for draft review and submission preparation.'
+    description: 'Use our similarity report or Drillbit support for draft review and submission preparation.'
   },
   {
     icon: '🤖',

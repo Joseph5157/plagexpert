@@ -1,7 +1,7 @@
 <script setup>
 const tags = [
-  'Turnitin Plag Report',
-  'Turnitin AI Report',
+  'Plagiarism Report',
+  'AI Detection Report',
   'Drillbit Plag & AI Report',
   'Plag Removal',
   'AI Removal',

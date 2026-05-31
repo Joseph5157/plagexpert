@@ -30,11 +30,11 @@ const faqs = [
   },
   {
     question: 'Is AI detection included?',
-    answer: 'AI detection is included in Turnitin plans. Please check the plan details or message us on WhatsApp before payment.'
+    answer: 'Yes, AI detection is included in our plagiarism check plans. Please check the plan details or message us on WhatsApp before payment.'
   },
   {
-    question: 'Turnitin vs Drillbit — which should I choose?',
-    answer: 'Turnitin is commonly preferred for university-style similarity and AI checks. Drillbit is another plagiarism and AI checking option. The best choice depends on your requirement and university guidelines.'
+    question: 'Similarity Check vs Drillbit — which should I choose?',
+    answer: 'Our similarity check is commonly preferred for university-style similarity and AI detection. Drillbit is another plagiarism and AI checking option. The best choice depends on your requirement and university guidelines.'
   },
   {
     question: 'Will my professor or university see my file?',

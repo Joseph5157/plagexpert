@@ -2,7 +2,7 @@
 const options = [
   {
     title: 'Report Support',
-    description: 'Help with Turnitin, Drillbit, AI detection, and report selection.',
+    description: 'Help with plagiarism checks, Drillbit, AI detection, and report selection.',
     accent: 'bg-[#EFF6FF]',
     dot: 'bg-[#2563EB]',
     titleClass: 'text-[#2563EB]'

@@ -90,7 +90,7 @@
             </h3>
 
             <ul class="mt-4 space-y-3 text-sm text-[#D0D5DD]">
-              <li>Turnitin Similarity Check</li>
+              <li>Similarity Check</li>
               <li>Drillbit Report</li>
               <li>AI Detection</li>
               <li>Paraphrasing Support</li>

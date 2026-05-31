@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
   title: 'FAQ — Common Questions About Plagiarism & AI Reports | PlagExpert',
-  description: 'Answers to common questions about Turnitin & Drillbit reports, document safety, delivery time, portal access, AI detection, and pricing. Get help fast on WhatsApp.',
+  description: 'Answers to common questions about plagiarism & AI detection reports, document safety, delivery time, portal access, and pricing. Get help fast on WhatsApp.',
   ogTitle: 'PlagExpert FAQ — Plagiarism & AI Report Questions Answered',
   ogDescription: 'Everything you need to know about report delivery, document safety, pricing, and portal access at PlagExpert.',
   ogImage: '/illustrations/hero-student-portal.png',

@@ -18,7 +18,7 @@ const portalLoginUrl = getPortalLoginUrl()
         </h1>
 
         <p class="mt-5 max-w-xl text-base leading-7 text-[#334155] sm:mt-6 sm:text-lg sm:leading-8">
-          Check your research paper, thesis, dissertation, or assignment using an advanced Turnitin Instructor Account system. Non-repository scans. Delivery in 10–30 minutes.
+          Check your research paper, thesis, dissertation, or assignment using our advanced plagiarism and AI checking system. Non-repository scans. Delivery in 10–30 minutes.
         </p>
 
         <p class="mt-4 text-sm font-semibold text-[#0D9488]">
@@ -50,7 +50,7 @@ const portalLoginUrl = getPortalLoginUrl()
         <div class="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white/95 p-4 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-white/70 backdrop-blur sm:p-6">
           <img
             src="/illustrations/hero-student-portal.png"
-            alt="Student checking plagiarism report on PlagExpert portal showing 18% similarity and 7% AI detection"
+            alt="Student checking plagiarism and AI detection report on PlagExpert portal"
             class="w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
             width="800"
             height="600"

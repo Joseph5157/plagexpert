@@ -6,7 +6,7 @@ const turnitinPlans = [
     files: '1 file',
     perFile: null,
     description: 'Best for a single quick report check.',
-    features: ['Turnitin similarity report', 'AI detection report', 'PDF delivery']
+    features: ['Similarity report', 'AI detection report', 'PDF delivery']
   },
   {
     name: 'Basic Plan',
@@ -81,9 +81,9 @@ const otherPlans = [
         </p>
       </div>
 
-      <!-- Turnitin Plans -->
+      <!-- Plagiarism Check Plans -->
       <div class="mt-6 sm:mt-8">
-        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.15em] text-[#0F172A]">Turnitin Plans</p>
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.15em] text-[#0F172A]">Plagiarism & AI Check Plans</p>
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 sm:gap-6">
           <div
             v-for="plan in turnitinPlans"
