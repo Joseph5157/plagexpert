@@ -1,4 +1,23 @@
 <script setup>
+import { ref, computed } from 'vue'
+
+const fileCount = ref(1)
+const pricePerFile = 99
+const bulkRates = [
+  { min: 1,  max: 1,  rate: 99 },
+  { min: 2,  max: 5,  rate: 89 },
+  { min: 6,  max: 15, rate: 80 },
+  { min: 16, max: 999, rate: 73 },
+]
+const calculatedRate = computed(() => {
+  const n = parseInt(fileCount.value) || 1
+  return bulkRates.find(r => n >= r.min && n <= r.max)?.rate ?? 73
+})
+const calculatedTotal = computed(() => {
+  const n = parseInt(fileCount.value) || 1
+  return n * calculatedRate.value
+})
+
 const turnitinPlans = [
   {
     name: 'Single File',
@@ -127,10 +146,42 @@ const otherPlans = [
         </div>
       </div>
 
-      <!-- Savings note -->
-      <div class="mt-4 rounded-[1.75rem] border border-[#E2E8F0] bg-white p-5 text-center text-sm leading-7 text-[#334155] shadow-sm">
-        Savings example:
-        <span class="font-semibold text-[#0F172A]">Buying Basic 15× costs ₹1,485 vs Monthly Plan ₹1,275.</span>
+      <!-- Cost Calculator -->
+      <div class="mt-6 rounded-[1.75rem] border border-[#E2E8F0] bg-white p-6 shadow-sm sm:p-8">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-widest text-[#64748B]">Quick Cost Calculator</p>
+            <p class="mt-1 text-xs text-[#94A3B8]">No email needed — see your price instantly</p>
+          </div>
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div class="flex items-center gap-3">
+              <label class="text-sm font-semibold text-[#0F172A] whitespace-nowrap">Number of files:</label>
+              <input
+                v-model="fileCount"
+                type="number"
+                min="1"
+                max="100"
+                class="w-20 rounded-xl border border-[#E2E8F0] bg-[#F8FAFC] px-3 py-2 text-center text-sm font-bold text-[#0F172A] focus:border-[#2563EB] focus:outline-none"
+              >
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="text-center">
+                <p class="text-xs text-[#64748B]">Rate/file</p>
+                <p class="text-lg font-bold text-[#0D9488]">₹{{ calculatedRate }}</p>
+              </div>
+              <div class="text-center">
+                <p class="text-xs text-[#64748B]">Total</p>
+                <p class="text-2xl font-bold text-[#0F172A]">₹{{ calculatedTotal.toLocaleString('en-IN') }}</p>
+              </div>
+              <a
+                :href="getWhatsAppUrl(`Hi PlagExpert! I need ${fileCount} file check(s). Can you help me get started?`)"
+                class="rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D] whitespace-nowrap"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Other Services -->
