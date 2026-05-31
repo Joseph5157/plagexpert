@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /api/
+
+# Block internal JS chunks — no SEO value
+Disallow: /_nuxt/
 
 Sitemap: https://plagexpert.in/sitemap.xml
