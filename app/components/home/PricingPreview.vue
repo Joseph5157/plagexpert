@@ -58,7 +58,7 @@ const otherPlans = [
   {
     icon: '📘',
     name: 'Drillbit Report',
-    price: '₹200',
+    price: '₹350',
     unit: 'per file',
     description: 'Plagiarism and AI detection via Drillbit.',
     cta: 'Select Service',
