@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFC_100%)] px-4 py-14 sm:py-20 lg:py-24">
+  <section class="bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFC_100%)] px-4 pt-6 pb-6 sm:pt-8 sm:pb-8 lg:pt-10 lg:pb-8">
     <div class="mx-auto max-w-4xl text-center">
       <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--plagexpert-primary-blue)]">
         FAQ
@@ -9,13 +9,13 @@
         Frequently asked questions
       </h1>
 
-      <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-[var(--plagexpert-text-body)] md:text-lg md:leading-8">
+      <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-[var(--plagexpert-text-body)] md:text-lg md:leading-8" data-speakable>
         Find clear answers about document safety, delivery time, report options, AI detection, payments, the WhatsApp process, and portal access.
       </p>
 
       <div class="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center sm:gap-4">
         <a
-          href="#"
+          :href="getWhatsAppUrl('Hi PlagExpert! I have a question about your plagiarism checking service.')"
           class="inline-flex items-center justify-center rounded-full bg-[var(--plagexpert-trust-green)] px-7 py-3 text-sm font-semibold text-white shadow-[0_16px_36px_rgba(22,163,74,0.24)] transition hover:bg-[var(--plagexpert-trust-green-hover)]"
         >
           Chat on WhatsApp

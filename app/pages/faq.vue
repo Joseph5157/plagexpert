@@ -1,4 +1,21 @@
 <script setup>
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['[data-speakable]', 'details > div']
+        },
+        url: 'https://plagexpert.in/faq'
+      })
+    }
+  ]
+})
+
 const categories = [
   'Document Safety',
   'Delivery',

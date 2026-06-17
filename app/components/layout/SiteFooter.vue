@@ -4,7 +4,7 @@
       <div class="md:hidden">
         <NuxtLink to="/" class="inline-flex">
           <img
-            src="/brand/plagexpert-logo.svg"
+            src="/brand/plagexpert-logo.png"
             alt="PlagExpert"
             class="h-11 w-auto rounded-xl bg-white px-2 py-1"
           >
@@ -25,7 +25,7 @@
         </div>
 
         <a
-          href="#"
+          :href="getWhatsAppUrl()"
           class="mt-5 inline-flex w-full justify-center rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
         >
           Chat on WhatsApp
@@ -50,7 +50,7 @@
           <div>
             <NuxtLink to="/" class="inline-flex">
               <img
-                src="/brand/plagexpert-logo.svg"
+                src="/brand/plagexpert-logo.png"
                 alt="PlagExpert"
                 class="h-12 w-auto rounded-xl bg-white px-2 py-1"
               >
@@ -90,7 +90,7 @@
             </h3>
 
             <ul class="mt-4 space-y-3 text-sm text-[#D0D5DD]">
-              <li>Turnitin Similarity Check</li>
+              <li>Similarity Check</li>
               <li>Drillbit Report</li>
               <li>AI Detection</li>
               <li>Paraphrasing Support</li>
@@ -104,13 +104,13 @@
             </h3>
 
             <ul class="mt-4 space-y-3 text-sm text-[#D0D5DD]">
-              <li><a href="#" class="transition hover:text-white">WhatsApp Support</a></li>
+              <li><a :href="getWhatsAppUrl()" class="transition hover:text-white">WhatsApp Support</a></li>
               <li><NuxtLink to="/legal#privacy-policy" class="transition hover:text-white">Privacy Policy</NuxtLink></li>
               <li><NuxtLink to="/legal#terms-of-service" class="transition hover:text-white">Terms of Service</NuxtLink></li>
             </ul>
 
             <a
-              href="#"
+              :href="getWhatsAppUrl()"
               class="mt-6 inline-flex rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
             >
               Chat on WhatsApp
