@@ -36,28 +36,13 @@ const faqs = [
           </NuxtLink>
         </div>
 
-        <div class="space-y-3 md:hidden">
+        <!-- Single list: first 3 shown on mobile, all 7 on desktop (items 4+ hidden on mobile) -->
+        <div class="space-y-3 md:space-y-4">
           <details
-            v-for="faq in faqs.slice(0, 3)"
+            v-for="(faq, i) in faqs"
             :key="faq.question"
             class="group rounded-[1.75rem] border border-[#E2E8F0] bg-white p-5 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
-          >
-            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-[#0F172A]">
-              <span>{{ faq.question }}</span>
-              <span class="text-2xl leading-none text-[#0F766E] transition group-open:rotate-45">+</span>
-            </summary>
-
-            <p class="mt-4 text-sm leading-7 text-[#334155]">
-              {{ faq.answer }}
-            </p>
-          </details>
-        </div>
-
-        <div class="hidden space-y-3 md:block md:space-y-4">
-          <details
-            v-for="faq in faqs"
-            :key="faq.question"
-            class="group rounded-[1.75rem] border border-[#E2E8F0] bg-white p-5 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
+            :class="i >= 3 ? 'hidden md:block' : ''"
           >
             <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-[#0F172A]">
               <span>{{ faq.question }}</span>
