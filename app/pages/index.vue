@@ -23,6 +23,14 @@ useSeoMeta({
 })
 
 useHead({
+  link: [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: '/illustrations/hero-student-portal.webp',
+      fetchpriority: 'high'
+    }
+  ],
   script: [
     {
       type: 'application/ld+json',

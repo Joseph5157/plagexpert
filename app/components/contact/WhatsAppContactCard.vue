@@ -42,7 +42,7 @@ const steps = [
 
           <div class="border-t border-[#E2E8F0] bg-[#F8FAFC] p-6 sm:p-8 lg:border-l lg:border-t-0 lg:p-10">
             <img
-              src="/illustrations/hero-portal-report.jpg"
+              src="/illustrations/hero-portal-report.webp"
               alt="Workflow from WhatsApp support to secure upload, processing, and report download"
               class="h-auto w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
               width="1168"

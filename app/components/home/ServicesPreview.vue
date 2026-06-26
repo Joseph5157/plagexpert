@@ -56,42 +56,13 @@ const services = [
         </p>
       </div>
 
-      <div class="mt-8 sm:hidden">
-        <div class="grid gap-4">
-          <div
-            v-for="service in services.slice(0, 3)"
-            :key="service.title"
-            class="flex h-full flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
-          >
-            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#EFF6FF] text-2xl shadow-inner">
-              {{ service.icon }}
-            </div>
-
-            <h3 class="mt-5 text-lg font-bold tracking-tight text-[#0F172A]">
-              {{ service.title }}
-            </h3>
-
-            <p class="mt-3 text-sm leading-7 text-[#334155]">
-              {{ service.description }}
-            </p>
-          </div>
-        </div>
-
-        <div class="mt-6 text-center">
-          <NuxtLink
-            to="/services"
-            class="inline-flex w-full justify-center rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF]"
-          >
-            View all services
-          </NuxtLink>
-        </div>
-      </div>
-
-      <div class="mt-10 hidden gap-4 sm:mt-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
+      <!-- Single responsive grid: 3 compact cards on mobile, all 6 full cards on desktop -->
+      <div class="mt-8 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
         <div
-          v-for="service in services"
+          v-for="(service, i) in services"
           :key="service.title"
-          class="flex h-full flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(16,24,40,0.12)] sm:p-7"
+          class="h-full flex-col rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(16,24,40,0.12)] sm:p-7"
+          :class="i >= 3 ? 'hidden sm:flex' : 'flex'"
         >
           <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#EFF6FF] text-2xl shadow-inner sm:h-12 sm:w-12">
             {{ service.icon }}
@@ -105,7 +76,8 @@ const services = [
             {{ service.description }}
           </p>
 
-          <ul class="mt-5 space-y-2 text-sm text-[#334155]">
+          <!-- Features + CTA shown on desktop only to keep mobile compact -->
+          <ul class="mt-5 hidden space-y-2 text-sm text-[#334155] sm:block">
             <li v-for="feature in service.features" :key="feature" class="flex gap-2">
               <span class="text-[#0F766E]">✓</span>
               <span>{{ feature }}</span>
@@ -114,11 +86,21 @@ const services = [
 
           <a
             :href="getWhatsAppUrl()"
-            class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8] sm:w-auto"
+            class="mt-6 hidden w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8] sm:inline-flex sm:w-auto"
           >
             Get on WhatsApp
           </a>
         </div>
+      </div>
+
+      <!-- Mobile-only link (desktop already shows all services) -->
+      <div class="mt-6 text-center sm:hidden">
+        <NuxtLink
+          to="/services"
+          class="inline-flex w-full justify-center rounded-full border border-[#E2E8F0] bg-white px-6 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition hover:border-[#2563EB] hover:bg-[#EFF6FF]"
+        >
+          View all services
+        </NuxtLink>
       </div>
     </div>
   </section>
