@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'Services', to: '/services' },
   { label: 'Pricing', to: '/pricing' },
   { label: 'FAQ', to: '/faq' },
+  { label: 'Blog', to: '/blog' },
   { label: 'Contact', to: '/contact' }
 ]
 
@@ -25,9 +26,11 @@ const closeMobileMenu = () => {
           @click="closeMobileMenu"
         >
           <img
-            src="/brand/plagexpert-logo.svg"
+            src="/brand/plagexpert-logo.png"
             alt="PlagExpert"
             class="h-10 w-auto sm:h-12"
+            width="400"
+            height="144"
           >
         </NuxtLink>
 
@@ -52,8 +55,8 @@ const closeMobileMenu = () => {
 
         <div class="hidden md:block">
           <a
-            href="#"
-            class="inline-flex rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
+            :href="getWhatsAppUrl()"
+            class="inline-flex rounded-full bg-[#15803D] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#166534]"
           >
             WhatsApp
           </a>
@@ -131,8 +134,8 @@ const closeMobileMenu = () => {
             </a>
 
             <a
-              href="#"
-              class="mt-1 inline-flex items-center justify-center rounded-full bg-[#16A34A] px-4 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#15803D]"
+              :href="getWhatsAppUrl()"
+              class="mt-1 inline-flex items-center justify-center rounded-full bg-[#15803D] px-4 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(22,163,74,0.24)] transition duration-200 hover:bg-[#166534]"
               @click="closeMobileMenu"
             >
               WhatsApp

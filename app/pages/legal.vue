@@ -204,8 +204,8 @@ const termsSections = [
 
             <div class="flex flex-col gap-3 sm:flex-row">
               <a
-                href="#"
-                class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D] sm:w-auto sm:px-8"
+                :href="getWhatsAppUrl()"
+                class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#166534] sm:w-auto sm:px-8"
               >
                 Chat on WhatsApp
               </a>

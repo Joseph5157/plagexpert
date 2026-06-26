@@ -49,7 +49,7 @@ const services = [
   <section class="bg-white px-4 py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
           All services
         </p>
 
@@ -86,13 +86,13 @@ const services = [
               :key="feature"
               class="flex gap-2"
             >
-              <span class="text-[#0D9488]">✓</span>
+              <span class="text-[#0F766E]">✓</span>
               <span>{{ feature }}</span>
             </li>
           </ul>
 
           <a
-            href="#"
+            :href="getWhatsAppUrl()"
             class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
           >
             Get on WhatsApp

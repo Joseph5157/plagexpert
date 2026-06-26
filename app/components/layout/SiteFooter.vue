@@ -7,6 +7,8 @@
             src="/brand/plagexpert-logo.png"
             alt="PlagExpert"
             class="h-11 w-auto rounded-xl bg-white px-2 py-1"
+            width="400"
+            height="144"
           >
         </NuxtLink>
 
@@ -26,10 +28,15 @@
 
         <a
           :href="getWhatsAppUrl()"
-          class="mt-5 inline-flex w-full justify-center rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
+          class="mt-5 inline-flex w-full justify-center rounded-full bg-[#15803D] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#166534]"
         >
           Chat on WhatsApp
         </a>
+
+        <p class="mt-3 text-sm text-[#D0D5DD]">
+          <span class="mr-1">📞</span>
+          <a :href="getWhatsAppUrl()" class="transition hover:text-white">{{ getWhatsAppDisplayNumber() }}</a>
+        </p>
 
         <div class="mt-5 flex flex-wrap gap-3 text-sm text-[#D0D5DD]">
           <NuxtLink to="/legal#privacy-policy" class="transition hover:text-white">
@@ -53,6 +60,8 @@
                 src="/brand/plagexpert-logo.png"
                 alt="PlagExpert"
                 class="h-12 w-auto rounded-xl bg-white px-2 py-1"
+                width="400"
+                height="144"
               >
             </NuxtLink>
 
@@ -80,6 +89,7 @@
               <li><NuxtLink to="/services" class="transition hover:text-white">Services</NuxtLink></li>
               <li><NuxtLink to="/pricing" class="transition hover:text-white">Pricing</NuxtLink></li>
               <li><NuxtLink to="/faq" class="transition hover:text-white">FAQ</NuxtLink></li>
+              <li><NuxtLink to="/blog" class="transition hover:text-white">Blog</NuxtLink></li>
               <li><NuxtLink to="/contact" class="transition hover:text-white">Contact</NuxtLink></li>
             </ul>
           </div>
@@ -104,14 +114,19 @@
             </h3>
 
             <ul class="mt-4 space-y-3 text-sm text-[#D0D5DD]">
-              <li><a :href="getWhatsAppUrl()" class="transition hover:text-white">WhatsApp Support</a></li>
+              <li>
+                <a :href="getWhatsAppUrl()" class="transition hover:text-white">WhatsApp Support</a>
+              </li>
+              <li>
+                <a :href="getWhatsAppUrl()" class="transition hover:text-white">{{ getWhatsAppDisplayNumber() }}</a>
+              </li>
               <li><NuxtLink to="/legal#privacy-policy" class="transition hover:text-white">Privacy Policy</NuxtLink></li>
               <li><NuxtLink to="/legal#terms-of-service" class="transition hover:text-white">Terms of Service</NuxtLink></li>
             </ul>
 
             <a
               :href="getWhatsAppUrl()"
-              class="mt-6 inline-flex rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
+              class="mt-6 inline-flex rounded-full bg-[#15803D] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#166534]"
             >
               Chat on WhatsApp
             </a>

@@ -12,7 +12,7 @@ const audiences = [
   <section class="hidden bg-white px-4 py-16 sm:py-20 lg:py-24 md:block">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
           Who uses PlagExpert
         </p>
 
@@ -40,7 +40,7 @@ const audiences = [
             {{ audience.title }}
           </h3>
 
-          <p class="mt-1 text-sm font-semibold text-[#0D9488]">
+          <p class="mt-1 text-sm font-semibold text-[#0F766E]">
             {{ audience.subtitle }}
           </p>
 
@@ -48,7 +48,7 @@ const audiences = [
             {{ audience.description }}
           </p>
 
-          <p class="mt-4 rounded-full bg-[#ECFDF5] px-3 py-2 text-xs font-semibold text-[#0D9488]">
+          <p class="mt-4 rounded-full bg-[#ECFDF5] px-3 py-2 text-xs font-semibold text-[#0F766E]">
             {{ audience.popular }}
           </p>
         </div>

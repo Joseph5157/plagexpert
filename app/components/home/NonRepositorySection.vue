@@ -5,7 +5,7 @@
 
         <!-- Text content -->
         <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
             How it works
           </p>
 
@@ -52,7 +52,7 @@
           </ul>
 
           <div class="mt-7 border-t border-[#E2E8F0] pt-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-[#94A3B8]">PlagExpert non-repository promise</p>
+            <p class="text-xs font-semibold uppercase tracking-widest text-[#64748B]">PlagExpert non-repository promise</p>
             <p class="mt-2 text-sm leading-6 text-[#334155]">
               Every report on PlagExpert uses non-repository scanning. Your document is scanned, your report is delivered, and your file is permanently deleted — starting at <strong class="text-[#0F172A]">₹99 per check</strong>.
             </p>

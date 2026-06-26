@@ -3,7 +3,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         speakable: {

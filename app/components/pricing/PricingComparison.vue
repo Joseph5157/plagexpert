@@ -13,7 +13,7 @@ const rows = [
   <section class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
           Compare plans
         </p>
 

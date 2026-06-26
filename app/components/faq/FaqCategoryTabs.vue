@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="px-4 pb-6 sm:pb-8">
+  <section class="px-4 pt-4 pb-6 sm:pt-6 sm:pb-8">
     <div class="mx-auto max-w-4xl">
       <div class="flex flex-wrap justify-center gap-2 sm:gap-3">
         <button

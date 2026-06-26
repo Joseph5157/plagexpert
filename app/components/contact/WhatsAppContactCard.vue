@@ -28,8 +28,8 @@ const steps = [
 
             <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
               <a
-                href="#"
-                class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D] sm:w-auto sm:px-8"
+                :href="getWhatsAppUrl()"
+                class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#166534] sm:w-auto sm:px-8"
               >
                 Start WhatsApp Chat
               </a>
@@ -42,9 +42,12 @@ const steps = [
 
           <div class="border-t border-[#E2E8F0] bg-[#F8FAFC] p-6 sm:p-8 lg:border-l lg:border-t-0 lg:p-10">
             <img
-              src="/illustrations/portal-workflow.jpg"
+              src="/illustrations/hero-portal-report.jpg"
               alt="Workflow from WhatsApp support to secure upload, processing, and report download"
-              class="w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
+              class="h-auto w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
+              width="1168"
+              height="784"
+              loading="lazy"
             >
 
             <div class="flex items-center justify-between gap-4">

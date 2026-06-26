@@ -28,7 +28,7 @@ const faqs = [
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-10">
         <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
             FAQ
           </p>
 
@@ -45,7 +45,7 @@ const faqs = [
           >
             <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-[#0F172A]">
               <span>{{ faq.question }}</span>
-              <span class="text-2xl leading-none text-[#0D9488] transition group-open:rotate-45">+</span>
+              <span class="text-2xl leading-none text-[#0F766E] transition group-open:rotate-45">+</span>
             </summary>
 
             <p class="mt-4 text-sm leading-7 text-[#334155]">

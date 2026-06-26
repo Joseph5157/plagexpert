@@ -2,9 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  app: {
+    head: {
+      htmlAttrs: { lang: 'en' }
+    }
+  },
   css: ['~/assets/css/plagexpert.css'],
   modules: ['@nuxtjs/tailwindcss'],
-  ssr: false,
+  ssr: true,
   runtimeConfig: {
     public: {
       portalUrl: process.env.NUXT_PUBLIC_PORTAL_URL || 'https://portal.plagexpert.in'

@@ -38,7 +38,7 @@ const items = [
           </p>
 
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a :href="getWhatsAppUrl()" class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D] sm:w-auto">
+            <a :href="getWhatsAppUrl()" class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#166534] sm:w-auto">
               Start on WhatsApp
             </a>
 
@@ -58,7 +58,10 @@ const items = [
           <img
             src="/illustrations/secure-document-vault.jpg"
             alt="Secure document vault with privacy and report protection"
-            class="w-full rounded-3xl border border-white/10 bg-white/5 shadow-xl"
+            class="h-auto w-full rounded-3xl border border-white/10 bg-white/5 shadow-xl"
+            width="1168"
+            height="784"
+            loading="lazy"
           >
         </div>
       </div>

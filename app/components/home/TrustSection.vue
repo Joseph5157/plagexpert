@@ -42,7 +42,7 @@ const trustCards = [
   <section class="bg-[#F8FAFC] px-4 pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-12">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-3xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
           Safe &amp; Confidential
         </p>
 

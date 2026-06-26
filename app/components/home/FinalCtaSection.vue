@@ -15,7 +15,7 @@ const steps = [
     <div class="mx-auto max-w-7xl">
       <div class="md:hidden">
         <div class="rounded-[2rem] bg-white p-6 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
             Get started today
           </p>
 
@@ -53,7 +53,7 @@ const steps = [
         <div class="overflow-hidden rounded-[2rem] bg-white shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">
           <div class="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
             <div class="p-6 sm:p-8 md:p-12 lg:p-16">
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
               Get started today
             </p>
 
@@ -67,7 +67,7 @@ const steps = [
 
               <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
                 <a
-                  href="#"
+                  :href="getWhatsAppUrl()"
                   class="inline-flex w-full items-center justify-center rounded-full bg-[#2563EB] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.24)] transition hover:bg-[#1D4ED8] sm:w-auto"
                 >
                   Start on WhatsApp
@@ -99,7 +99,7 @@ const steps = [
 
                 <div class="mt-6 space-y-4">
                   <div v-for="(step, index) in steps" :key="step" class="flex gap-4">
-                    <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#16A34A] text-sm font-bold text-white shadow-sm">
+                    <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#15803D] text-sm font-bold text-white shadow-sm">
                       {{ index + 1 }}
                     </div>
 

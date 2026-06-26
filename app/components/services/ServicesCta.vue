@@ -4,7 +4,7 @@
       <div class="overflow-hidden rounded-[2rem] bg-white shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-[#E2E8F0]">
         <div class="grid gap-0 lg:grid-cols-[1.08fr_0.92fr]">
           <div class="p-6 sm:p-8 md:p-12 lg:p-16">
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
               Need help now?
             </p>
 
@@ -18,8 +18,8 @@
 
             <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
               <a
-                href="#"
-                class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-7 py-3 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D] sm:w-auto"
+                :href="getWhatsAppUrl()"
+                class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-7 py-3 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.22)] transition hover:bg-[#166534] sm:w-auto"
               >
                 Chat on WhatsApp
               </a>
@@ -41,7 +41,7 @@
 
               <ul class="mt-5 space-y-4 text-sm leading-7 text-[#E5E7EB]">
                 <li class="flex gap-3">
-                  <span class="mt-1 h-2.5 w-2.5 rounded-full bg-[#16A34A]"></span>
+                  <span class="mt-1 h-2.5 w-2.5 rounded-full bg-[#15803D]"></span>
                   <span>Clear service guidance before you pay or open the portal.</span>
                 </li>
                 <li class="flex gap-3">

@@ -19,8 +19,8 @@
 
         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
           <a
-            href="#"
-            class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D] sm:w-auto sm:px-8"
+            :href="getWhatsAppUrl()"
+            class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.22)] transition hover:bg-[#166534] sm:w-auto sm:px-8"
           >
             Chat on WhatsApp
           </a>
@@ -38,7 +38,7 @@
         <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#EFF6FF] via-white to-[#ECFDF5] blur-2xl"></div>
         <div class="relative rounded-[2rem] border border-[#E2E8F0] bg-white/95 p-5 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-white/70 backdrop-blur sm:p-6">
           <div class="rounded-[1.5rem] border border-[#E2E8F0] bg-[#F8FAFC] p-5 sm:p-6">
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
               Academic support
             </p>
 
@@ -52,7 +52,7 @@
                 <span>Similarity checks for drafts, submissions, and repeated review cycles.</span>
               </li>
               <li class="flex items-start gap-3">
-                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-[#16A34A]"></span>
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-[#15803D]"></span>
                 <span>Fast WhatsApp support to help you choose the correct service.</span>
               </li>
               <li class="flex items-start gap-3">

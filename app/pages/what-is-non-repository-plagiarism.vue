@@ -4,7 +4,7 @@ useSeoMeta({
   description: 'A complete guide for Indian students: what non-repository plagiarism scanning means, why it matters for thesis submission, and how it differs from checking through your university.',
   ogTitle: 'What is Non-Repository Plagiarism Checking?',
   ogDescription: 'Non-repository scanning checks your document for plagiarism without adding it to any student database. Essential for Indian thesis students.',
-  ogImage: '/illustrations/hero-student-portal.png',
+  ogImage: '/illustrations/hero-student-portal.jpg',
   twitterCard: 'summary_large_image',
 })
 
@@ -12,7 +12,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
         headline: 'What is Non-Repository Plagiarism Checking? A Complete Guide for Indian Students',
@@ -34,7 +34,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: [
@@ -83,7 +83,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         speakable: {
@@ -160,7 +160,7 @@ const faqs = [
         <div class="mt-7 flex flex-col gap-3 sm:flex-row">
           <a
             :href="getWhatsAppUrl('Hi PlagExpert! I want a non-repository plagiarism check for my thesis.')"
-            class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-7 py-3 text-sm font-semibold text-white shadow-[0_16px_36px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D] sm:w-auto"
+            class="inline-flex w-full items-center justify-center rounded-full bg-[#15803D] px-7 py-3 text-sm font-semibold text-white shadow-[0_16px_36px_rgba(22,163,74,0.24)] transition hover:bg-[#166534] sm:w-auto"
           >
             Get your report — ₹99
           </a>
@@ -217,7 +217,7 @@ const faqs = [
                 <tr v-for="row in comparisonRows" :key="row.feature">
                   <td class="px-5 py-3 font-medium text-[#0F172A]">{{ row.feature }}</td>
                   <td class="px-5 py-3 text-center text-[#64748B]">{{ row.university }}</td>
-                  <td class="px-5 py-3 text-center font-semibold text-[#16A34A]">{{ row.plagexpert }}</td>
+                  <td class="px-5 py-3 text-center font-semibold text-[#15803D]">{{ row.plagexpert }}</td>
                 </tr>
               </tbody>
             </table>
@@ -248,7 +248,7 @@ const faqs = [
             <div class="flex flex-shrink-0 gap-3">
               <a
                 :href="getWhatsAppUrl('Hi PlagExpert! I want a non-repository plagiarism check.')"
-                class="inline-flex items-center rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
+                class="inline-flex items-center rounded-full bg-[#15803D] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(22,163,74,0.22)] transition hover:bg-[#166534]"
               >
                 WhatsApp
               </a>
@@ -286,28 +286,28 @@ const faqs = [
                 to="/blog/what-is-non-repository-plagiarism-check"
                 class="group rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-4 transition hover:border-[#2563EB]/30 hover:bg-[#EFF6FF]/30"
               >
-                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0D9488]">Blog</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0F766E]">Blog</span>
                 <p class="mt-1 text-sm font-semibold text-[#0F172A] transition-colors group-hover:text-[#2563EB]">What is non-repository plagiarism checking?</p>
               </NuxtLink>
               <NuxtLink
                 to="/blog/ugc-plagiarism-norms-india-2018"
                 class="group rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-4 transition hover:border-[#2563EB]/30 hover:bg-[#EFF6FF]/30"
               >
-                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0D9488]">Blog</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0F766E]">Blog</span>
                 <p class="mt-1 text-sm font-semibold text-[#0F172A] transition-colors group-hover:text-[#2563EB]">UGC plagiarism norms India 2018</p>
               </NuxtLink>
               <NuxtLink
                 to="/blog/how-to-check-plagiarism-for-thesis-india"
                 class="group rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-4 transition hover:border-[#2563EB]/30 hover:bg-[#EFF6FF]/30"
               >
-                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0D9488]">Blog</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0F766E]">Blog</span>
                 <p class="mt-1 text-sm font-semibold text-[#0F172A] transition-colors group-hover:text-[#2563EB]">How to check plagiarism for thesis in India</p>
               </NuxtLink>
               <NuxtLink
                 to="/pricing"
                 class="group rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-4 transition hover:border-[#2563EB]/30 hover:bg-[#EFF6FF]/30"
               >
-                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0D9488]">Pricing</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-[#0F766E]">Pricing</span>
                 <p class="mt-1 text-sm font-semibold text-[#0F172A] transition-colors group-hover:text-[#2563EB]">View PlagExpert plans — from ₹99</p>
               </NuxtLink>
             </div>

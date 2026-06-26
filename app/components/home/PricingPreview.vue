@@ -6,7 +6,8 @@ const plans = [
     files: '1 file',
     description: 'Best for one quick report check.',
     popular: false,
-    features: ['Similarity report', 'PDF delivery', 'WhatsApp support']
+    features: ['Similarity report', 'PDF delivery', 'WhatsApp support'],
+    waMsg: 'Hi PlagExpert! I want the Basic Plan (₹99 for 1 file). Please help me get started.'
   },
   {
     name: 'Standard',
@@ -14,7 +15,8 @@ const plans = [
     files: '5 files',
     description: 'Good for project reports and small batches.',
     popular: false,
-    features: ['5 report checks', 'PDF delivery', 'Fast support']
+    features: ['5 report checks', 'PDF delivery', 'Fast support'],
+    waMsg: 'Hi PlagExpert! I want the Standard Plan (₹399 for 5 files). Please help me get started.'
   },
   {
     name: 'Student',
@@ -22,7 +24,8 @@ const plans = [
     files: '15 files',
     description: 'Best value for thesis and repeated checks.',
     popular: true,
-    features: ['15 report checks', 'Best for thesis drafts', 'Priority support']
+    features: ['15 report checks', 'Best for thesis drafts', 'Priority support'],
+    waMsg: 'Hi PlagExpert! I want the Student Plan (₹1,149 for 15 files). Please help me get started.'
   },
   {
     name: 'Department',
@@ -30,7 +33,8 @@ const plans = [
     files: '30 files',
     description: 'For departments and multiple submissions.',
     popular: false,
-    features: ['30 report checks', 'Bulk workflow', 'Department support']
+    features: ['30 report checks', 'Bulk workflow', 'Department support'],
+    waMsg: 'Hi PlagExpert! I want the Department Plan (₹2,949 for 30 files). Please help me get started.'
   },
   {
     name: 'Enterprise',
@@ -38,7 +42,8 @@ const plans = [
     files: '50+ files',
     description: 'For institutions and large-volume needs.',
     popular: false,
-    features: ['Custom volume', 'Multi-user workflow', 'Custom pricing']
+    features: ['Custom volume', 'Multi-user workflow', 'Custom pricing'],
+    waMsg: 'Hi PlagExpert! I am interested in Enterprise pricing for 50+ files. Can you share custom pricing details?'
   }
 ]
 </script>
@@ -47,7 +52,7 @@ const plans = [
   <section class="bg-[#F8FAFC] px-4 py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F766E]">
           Pricing
         </p>
 
@@ -88,7 +93,7 @@ const plans = [
             </span>
           </div>
 
-          <p class="mt-1 text-sm font-semibold text-[#0D9488]">
+          <p class="mt-1 text-sm font-semibold text-[#0F766E]">
             {{ plan.files }}
           </p>
 
@@ -102,14 +107,14 @@ const plans = [
               :key="feature"
               class="flex gap-2"
             >
-              <span class="text-[#0D9488]">✓</span>
+              <span class="text-[#0F766E]">✓</span>
               <span>{{ feature }}</span>
             </li>
           </ul>
 
           <a
-            href="#"
-            class="mt-6 inline-flex w-full justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+            :href="getWhatsAppUrl(plan.waMsg)"
+            class="mt-6 inline-flex w-full justify-center rounded-full bg-[#15803D] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.22)] transition hover:bg-[#166534]"
           >
             Buy on WhatsApp
           </a>

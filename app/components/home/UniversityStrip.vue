@@ -1,7 +1,7 @@
 <template>
   <section class="border-y border-[#E2E8F0] bg-[#F8FAFC] px-4 py-5 sm:py-6">
     <div class="mx-auto max-w-7xl">
-      <p class="mb-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-[#94A3B8]">
+      <p class="mb-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
         Trusted by students &amp; researchers from
       </p>
 

@@ -1,10 +1,24 @@
 <script setup>
+import HeroSection from '~/components/home/HeroSection.vue'
+import TrustStrip from '~/components/home/TrustStrip.vue'
+import StatsSection from '~/components/home/StatsSection.vue'
+import UniversityStrip from '~/components/home/UniversityStrip.vue'
+import TrustSection from '~/components/home/TrustSection.vue'
+import NonRepositorySection from '~/components/home/NonRepositorySection.vue'
+import HowItWorksSection from '~/components/home/HowItWorksSection.vue'
+import ServicesPreview from '~/components/home/ServicesPreview.vue'
+import PricingPreview from '~/components/home/PricingPreview.vue'
+import TestimonialsSection from '~/components/home/TestimonialsSection.vue'
+import FaqPreview from '~/components/home/FaqPreview.vue'
+import ConfidentialSection from '~/components/home/ConfidentialSection.vue'
+import ContactSection from '~/components/home/ContactSection.vue'
+
 useSeoMeta({
   title: 'PlagExpert — Plagiarism & AI Detection Reports for Students India',
   description: 'Get accurate plagiarism and AI detection reports for your thesis, dissertation, or assignment. Non-repository scans. Delivery in 10–30 minutes. Trusted by 50,000+ students across IIT, VTU, Anna University, Amity, SRM, VIT and more.',
   ogTitle: 'PlagExpert — Plagiarism & AI Reports for Academic Success',
   ogDescription: 'Plagiarism and AI detection reports. Fast, private, non-repository. Trusted by 50,000+ students across India.',
-  ogImage: '/illustrations/hero-student-portal.png',
+  ogImage: '/illustrations/hero-student-portal.jpg',
   twitterCard: 'summary_large_image'
 })
 
@@ -12,7 +26,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'PlagExpert',
@@ -32,7 +46,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
         name: 'PlagExpert',
@@ -54,7 +68,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Service',
         name: 'Plagiarism & AI Detection Report',
@@ -78,7 +92,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'AggregateRating',
         itemReviewed: {
@@ -94,7 +108,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'ItemList',
         name: 'PlagExpert Student Reviews',
@@ -137,7 +151,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: [
@@ -186,7 +200,7 @@ useHead({
     },
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      textContent: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         speakable: {
