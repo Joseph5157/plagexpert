@@ -17,7 +17,7 @@ useHead({
 </script>
 
 <template>
-  <main class="overflow-hidden bg-[#F8FAFC] pb-8 sm:pb-12">
+  <main class="overflow-hidden bg-surface pb-8 sm:pb-12">
     <ContactHero />
     <WhatsAppContactCard />
     <ContactOptions />

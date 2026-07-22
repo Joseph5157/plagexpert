@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#F8FAFC] text-[#0F172A] antialiased">
+  <div class="min-h-screen bg-surface text-ink antialiased">
     <SiteHeader />
     <slot />
     <SiteFooter />

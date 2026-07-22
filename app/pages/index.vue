@@ -70,21 +70,14 @@ useHead({
           {
             '@type': 'Offer',
             name: 'Single File Check',
-            price: '99',
+            price: '150',
             priceCurrency: 'INR',
             description: '1 plagiarism and AI detection report'
           },
           {
             '@type': 'Offer',
-            name: 'Standard Plan',
-            price: '449',
-            priceCurrency: 'INR',
-            description: '5 plagiarism and AI detection reports'
-          },
-          {
-            '@type': 'Offer',
-            name: 'Research Plan',
-            price: '1199',
+            name: 'Thesis Bundle',
+            price: '2100',
             priceCurrency: 'INR',
             description: '15 plagiarism and AI detection reports'
           }
@@ -146,7 +139,7 @@ useHead({
           {
             '@type': 'Question',
             name: 'What is the price for a plagiarism report?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Prices start at ₹99 for a single file check. Multi-file plans are available: 5 files for ₹449, 15 files for ₹1,199, and 30 files for ₹2,199.' }
+            acceptedAnswer: { '@type': 'Answer', text: 'Prices start at ₹150 for a single file check. A 15-file Thesis Bundle is available for ₹2,100, and custom plans are available for departments and large-volume needs.' }
           },
           {
             '@type': 'Question',

@@ -23,52 +23,82 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'How to Check Plagiarism for Thesis in India — Step-by-Step Guide',
     metaDescription: 'Learn how to check plagiarism for your thesis in India. Understand similarity scores, non-repository scans, AI detection, and how to get your report in 30 minutes.',
     date: '2026-05-20',
-    readTime: '6 min read',
+    readTime: '9 min read',
     category: 'Thesis Guide',
     excerpt: 'A complete guide for Indian students on checking plagiarism for their thesis — covering similarity scores, non-repository scans, AI detection, and what your university actually checks.',
     sections: [
       { type: 'paragraph', text: 'Submitting a thesis in India requires passing a plagiarism check before final submission. Most universities — including IIT, Anna University, VTU, Amity, and SRM — require a similarity report as part of the submission process. But many students are confused about what kind of report to get, what score is acceptable, and how to do it without their document being stored in a public database.' },
-      { type: 'paragraph', text: 'This guide walks you through the entire process step by step.' },
+      { type: 'paragraph', text: 'This guide walks you through the entire process step by step, from understanding what a plagiarism check actually is to reading your report and improving your score before the deadline.' },
       { type: 'heading', text: 'What Is a Plagiarism Check for Thesis?' },
       { type: 'paragraph', text: 'A plagiarism check compares your thesis against millions of academic papers, websites, journals, and previously submitted student documents to calculate a "similarity score" — the percentage of your content that matches other sources.' },
-      { type: 'paragraph', text: 'Most Indian universities require this similarity score to be below a certain threshold before you can submit your thesis. UGC guidelines (2018) recommend a similarity threshold of 10% for direct quotes and 40% for total similarity, but individual universities often set stricter limits.' },
+      { type: 'paragraph', text: 'Most Indian universities require this similarity score to be below a certain threshold before you can submit your thesis. UGC guidelines (2018) recommend a similarity threshold of 10% for direct quotes and 40% for total similarity, but individual universities often set stricter limits. IITs typically enforce under 10%, while some state universities may accept up to 20%.' },
       { type: 'heading', text: 'What Is a Non-Repository Plagiarism Check?' },
       { type: 'paragraph', text: 'This is the most important thing PhD scholars and PG students need to understand. There are two types of plagiarism scans:' },
       { type: 'list', items: [
         'Repository scan — your document is uploaded to a student database. Future submissions by other students will be compared against your document. This is the default mode used by many institutional accounts.',
         'Non-repository scan — your document is checked for plagiarism but NOT stored in any database. Your thesis cannot be matched against other students\' papers. This protects your original work.'
       ]},
-      { type: 'paragraph', text: 'For students getting a pre-submission check, a non-repository scan is essential. PlagExpert provides non-repository scans so your document is never at risk of being indexed before your official submission.' },
+      { type: 'paragraph', text: 'For students getting a pre-submission check, a non-repository scan is essential. PlagExpert provides non-repository scans so your document is never at risk of being indexed before your official submission. If you use a repository scan for your draft, your own draft may later appear as a match when you submit the final version — artificially inflating your score.' },
       { type: 'heading', text: 'What Score Is Acceptable?' },
       { type: 'paragraph', text: 'Different universities have different thresholds. As a general guideline:' },
       { type: 'list', items: [
         'Below 10% — Excellent. Most universities will accept this without question.',
-        '10% to 25% — Generally acceptable. Quotations and references often account for this.',
-        '25% to 40% — May need improvement. Review matched sections and paraphrase where possible.',
-        'Above 40% — Likely to be flagged. Significant rewriting may be required.'
+        '10% to 20% — Generally acceptable at many state universities. References and citations often account for this.',
+        '20% to 40% — May need improvement depending on your university. Review matched sections and paraphrase where possible.',
+        'Above 40% — Likely to be flagged under UGC Level 2 or Level 3. Significant rewriting required before submission.'
       ]},
-      { type: 'paragraph', text: 'Always check your specific university\'s guidelines. Anna University, VTU, Osmania University, and JNTU each have their own thresholds and accepted report formats.' },
+      { type: 'paragraph', text: 'Always check your specific university\'s guidelines directly with your supervisor or research coordinator. Anna University, VTU, Osmania University, and JNTU each have their own thresholds and accepted report formats.' },
       { type: 'heading', text: 'AI Detection — Why It Matters Now' },
-      { type: 'paragraph', text: 'Since 2023, many universities have started requiring an AI detection score alongside the similarity report. AI detection tools check whether sections of your thesis appear to have been written by AI tools like ChatGPT.' },
-      { type: 'paragraph', text: 'PlagExpert includes AI detection in all reports at no extra cost, so you receive both your similarity percentage and your AI score in one report.' },
+      { type: 'paragraph', text: 'Since 2023, many universities have started requiring an AI detection score alongside the similarity report. AI detection tools check whether sections of your thesis appear to have been written by AI tools like ChatGPT, Gemini, or similar tools.' },
+      { type: 'paragraph', text: 'PlagExpert includes AI detection in all reports at no extra cost, so you receive both your similarity percentage and your AI score in one combined report. This is particularly important for 2024 and 2025 submissions, as universities are increasingly checking for AI-generated content in thesis work.' },
       { type: 'heading', text: 'How to Get a Plagiarism Report in India — Step by Step' },
       { type: 'list', items: [
-        'Choose your plan — Single file for one chapter, or multi-file plan for your full thesis and multiple drafts.',
-        'Pay securely — Complete payment and receive your upload link on WhatsApp within minutes.',
-        'Upload your document — Use your personal upload link to submit your thesis file (PDF or Word).',
+        'Choose your plan — Single File (₹150) for one chapter, or the Thesis Bundle (₹2,100 for 15 files) for your full thesis and multiple drafts.',
+        'Message on WhatsApp — Contact PlagExpert on WhatsApp at +91 63098 72817 to place your order.',
+        'Complete payment — Payment details are shared on WhatsApp. Complete payment and receive your secure upload link.',
+        'Upload your document — Use your personal portal link to submit your thesis file (PDF or Word .docx).',
         'Receive your report — Your similarity and AI detection report is delivered within 10–30 minutes.',
-        'Review and improve — If your score is high, use the matched sections to identify and paraphrase or cite properly.'
+        'Review and improve — Use the matched sections in the report to identify and paraphrase or cite properly before your final submission.'
+      ]},
+      { type: 'heading', text: 'How to Read Your Plagiarism Report' },
+      { type: 'paragraph', text: 'A similarity report contains several key sections that students often misread. Here is what each part means:' },
+      { type: 'list', items: [
+        'Overall similarity percentage — This is the headline number. It represents the total percentage of your document that matches other sources. Lower is better.',
+        'Source breakdown — The report lists every source your text matches. Review each one. If you cited a source and it appears here, that is expected. If an uncited source appears, you need to paraphrase or add a citation.',
+        'Colour-highlighted text — Matched text is highlighted in your document. Red or dark highlights usually mean high-confidence matches. Light colours mean lower-confidence matches.',
+        'Internet matches vs database matches — Internet matches come from websites. Database matches come from academic journals and previously submitted student work. Database matches are more likely to be flagged by your university.',
+        'Self-plagiarism matches — If your own previously submitted papers, conference presentations, or seminar reports appear as matches, this is self-plagiarism. It still counts toward your similarity score.'
+      ]},
+      { type: 'heading', text: 'Chapter-by-Chapter vs Full Thesis Check' },
+      { type: 'paragraph', text: 'Many students make the mistake of only checking the full thesis at the end. This creates unnecessary pressure right before submission. A better approach is to check chapter by chapter as you complete each one:' },
+      { type: 'list', items: [
+        'Chapter-level checks catch problems early — before they multiply across multiple chapters.',
+        'Literature review chapters typically score highest — get these checked first and revise early.',
+        'Methodology chapters often contain standard protocol language — check these and paraphrase boilerplate sections.',
+        'Results and discussion chapters usually score lowest — they contain your original findings.',
+        'Abstract and introduction — check these separately at the end, as they are often rewritten last and may accidentally duplicate sentences from the body.'
+      ]},
+      { type: 'heading', text: 'Common Mistakes That Increase Your Score' },
+      { type: 'paragraph', text: 'Students are often surprised by high scores because of mistakes that are easy to avoid with a little awareness:' },
+      { type: 'list', items: [
+        'Copying sentences from your own earlier seminar papers without paraphrasing — self-plagiarism is counted just like external plagiarism.',
+        'Using the same paragraph structure from a published paper while changing a few words — the underlying structure still matches.',
+        'Including the full text of questionnaires or survey tools in appendices — these are often directly copied from standard instruments and score high.',
+        'Not paraphrasing the methodology section — standard research protocols are frequently reused word-for-word across theses.',
+        'Copying definitions from textbooks or Wikipedia even when citing them — many universities require paraphrasing even with citation for non-trivial blocks of text.',
+        'Forgetting to update your literature review after copying paragraph-length summaries from journal abstract pages.'
       ]},
       { type: 'heading', text: 'How Many Checks Do You Need?' },
       { type: 'paragraph', text: 'Most students need more than one check. A typical thesis workflow looks like this:' },
       { type: 'list', items: [
-        'Check 1 — After completing your first full draft. Identify problem areas.',
-        'Check 2 — After revising matched sections and paraphrasing.',
-        'Check 3 — Final check before submission to your supervisor.',
-        'Check 4 — Final check before official university submission.'
+        'Check 1 — Literature review chapter, when first drafted. This is usually the highest-scoring chapter.',
+        'Check 2 — Full thesis first draft. Identify all problem areas across all chapters.',
+        'Check 3 — After revising matched sections and paraphrasing. Confirm the score has dropped.',
+        'Check 4 — Final check before submission to your supervisor for approval.',
+        'Check 5 — Final check before official university submission (this is usually the one your university sees).'
       ]},
-      { type: 'paragraph', text: 'Our Research Plan (15 files for ₹1,199) is designed exactly for this workflow — covering multiple draft checks, chapter-level checks, and a final submission check.' },
-      { type: 'cta', text: 'Get your plagiarism report in 30 minutes — starting at ₹99 for a single file.' },
+      { type: 'paragraph', text: 'Our Thesis Bundle (15 files for ₹2,100) is designed exactly for this workflow — covering multiple draft checks, chapter-level checks, and a final submission check, all at far lower cost than buying single checks each time.' },
+      { type: 'cta', text: 'Get your plagiarism report in 30 minutes — starting at ₹150 for a single file.' },
     ]
   },
 
@@ -108,7 +138,7 @@ export const blogPosts: BlogPost[] = [
         'Price is not an indicator — Both repository and non-repository checks can cost similar amounts.'
       ]},
       { type: 'paragraph', text: 'PlagExpert explicitly uses non-repository scanning for all checks. Your document is never added to any student database. After your report is delivered, your file is deleted from our system.' },
-      { type: 'cta', text: 'Get a private, non-repository plagiarism check — starting at ₹99.' },
+      { type: 'cta', text: 'Get a private, non-repository plagiarism check — starting at ₹150.' },
     ]
   },
 
@@ -159,11 +189,12 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'UGC Plagiarism Norms 2018 — Complete Guide for PhD Students in India',
     metaDescription: 'UGC\'s 2018 anti-plagiarism regulations define similarity thresholds for Indian PhDs. Learn what the limits are, consequences of violation, and how to stay compliant.',
     date: '2026-05-12',
-    readTime: '7 min read',
+    readTime: '9 min read',
     category: 'UGC Guidelines',
     excerpt: 'The UGC (Promotion of Academic Integrity and Prevention of Plagiarism in Higher Educational Institutions) Regulations 2018 set clear rules for plagiarism in India. Here\'s what every PhD scholar needs to know.',
     sections: [
       { type: 'paragraph', text: 'In 2018, the University Grants Commission of India introduced the "UGC (Promotion of Academic Integrity and Prevention of Plagiarism in Higher Educational Institutions) Regulations, 2018." These regulations made plagiarism checking mandatory for all PhD theses submitted to universities under UGC\'s purview — which includes virtually every university in India.' },
+      { type: 'paragraph', text: 'Understanding these norms is not optional. A PhD thesis flagged for plagiarism under UGC guidelines can result in debarment from submission for up to three years. This guide covers every key aspect of the UGC 2018 regulations that PhD scholars and their supervisors need to know.' },
       { type: 'heading', text: 'What Are the UGC Similarity Thresholds?' },
       { type: 'paragraph', text: 'UGC 2018 defines four levels of plagiarism based on similarity percentage:' },
       { type: 'list', items: [
@@ -173,38 +204,80 @@ export const blogPosts: BlogPost[] = [
         'Level 3 — Similarity above 60%: Major plagiarism. The student is debarred from submitting the thesis for 3 years.'
       ]},
       { type: 'paragraph', text: 'These thresholds apply AFTER excluding properly quoted and cited content. Many universities apply even stricter limits internally — so aiming below 10% is always the safest goal.' },
+      { type: 'heading', text: 'Which Universities Apply Stricter Thresholds?' },
+      { type: 'paragraph', text: 'While UGC sets the national minimum standard, many universities have issued their own internal policies with tighter requirements. Here is what students typically encounter at major institutions:' },
+      { type: 'list', items: [
+        'IIT Madras, IIT Delhi, IIT Bombay — Typically require under 10% similarity for the thesis body (excluding bibliography and references). Some departments require under 5% for direct text matches.',
+        'Anna University — Generally aligned with UGC at under 10% for each chapter. Drillbit reports are accepted and commonly required.',
+        'VTU — Under 10% for the main content of PhD theses. M.Tech projects typically follow UGC Level 0 (under 10%) as departmental practice.',
+        'Amity University — Under 10% for PhD dissertations. MBA and M.Sc dissertations must be below 15%.',
+        'SRM University, VIT Vellore — Under 15% for PhD scholars; under 20% for PG dissertations, though individual department rules may vary.',
+        'JNTU Hyderabad, Osmania University — Under 20% for PhD theses as per institutional policy, though stricter department-level limits may apply.',
+        'Manipal University, BITS Pilani — Under 10% aligned with UGC. BITS scholars are often expected to clear a stricter internal review before external submission.'
+      ]},
+      { type: 'paragraph', text: 'Always confirm the exact threshold with your supervisor or research committee before submitting. Institutional policies are updated periodically and may differ from what was in effect when your seniors submitted.' },
       { type: 'heading', text: 'What Is Excluded from Similarity Count?' },
       { type: 'paragraph', text: 'The UGC regulations specify that the following should be excluded from the similarity calculation:' },
       { type: 'list', items: [
-        'All quoted text that is properly cited',
-        'Bibliography and references section',
-        'Generic phrases and common expressions',
-        'Text in figures, tables, and appendices (depending on the tool used)'
+        'All quoted text that is properly cited with quotation marks',
+        'Bibliography, references, and citations section',
+        'Generic phrases and common expressions used in academic writing',
+        'Text in figures, tables, and appendices (depending on the tool used)',
+        'Standard definitions and terminologies specific to the field'
       ]},
-      { type: 'paragraph', text: 'However, not all plagiarism checking tools automatically exclude these. Always check your full report and make sure references and quoted sections are properly handled.' },
+      { type: 'paragraph', text: 'However, not all plagiarism checking tools automatically exclude these sections. The quality and configuration of the tool matters. Always review your full report to ensure references and properly quoted sections are not artificially inflating your score. If they are, flag this to your supervisor with the report in hand.' },
+      { type: 'heading', text: 'How to Read the Exclusions in Your Report' },
+      { type: 'paragraph', text: 'A proper plagiarism report will show you matched sections highlighted in colour — typically red for high-similarity matches and yellow or green for lower matches. Before panicking about your score, check each matched section:' },
+      { type: 'list', items: [
+        'Is the matched text inside quotation marks and cited? If yes, it should ideally be excluded or noted separately.',
+        'Is the matched source your own previously submitted paper or draft? If yes, this is self-plagiarism and still counts.',
+        'Is the match from your bibliography? Many tools incorrectly include reference lists in the score. Ask your provider to exclude them.',
+        'Is the matched content standard field terminology (e.g., "The results indicate a statistically significant difference at p < 0.05")? Such phrases are unavoidable in research and most good tools flag them separately.'
+      ]},
       { type: 'heading', text: 'Does UGC Apply to MPhil and PG Dissertations?' },
-      { type: 'paragraph', text: 'The 2018 regulations primarily focus on PhD theses. However, most universities have extended similar requirements to MPhil dissertations and PG (Master\'s) dissertations as institutional policy. Check with your department — many universities now require similarity reports for M.Tech, MBA, and M.Sc dissertations as well.' },
+      { type: 'paragraph', text: 'The 2018 regulations primarily focus on PhD theses. However, most universities have extended similar requirements to MPhil dissertations and PG (Master\'s) dissertations as institutional policy. Check with your department — many universities now require similarity reports for M.Tech, MBA, M.Sc, and even undergraduate project reports.' },
+      { type: 'paragraph', text: 'Since UGC discontinued MPhil programmes after the New Education Policy (NEP) 2020, universities are now adapting their plagiarism policies for integrated PhD programmes and PG research projects. If you are in a programme that has changed since 2020, verify current requirements with your research coordinator.' },
       { type: 'heading', text: 'What Software Does UGC Recommend?' },
-      { type: 'paragraph', text: 'UGC does not mandate a specific plagiarism detection tool. Universities are free to choose any tool that meets their requirements. The most commonly used tools at Indian institutions include similarity checkers and Drillbit. Many universities have institutional subscriptions, but students can also obtain reports through authorised service providers.' },
+      { type: 'paragraph', text: 'UGC does not mandate a specific plagiarism detection tool. Universities are free to choose any tool that meets their requirements. The most commonly used tools at Indian institutions include similarity checkers (widely used across all universities) and Drillbit (widely used at Tamil Nadu universities). Many universities have institutional subscriptions, but students can also obtain reports through authorised service providers like PlagExpert.' },
+      { type: 'heading', text: 'What Happens If You Are Flagged for Plagiarism?' },
+      { type: 'paragraph', text: 'If your thesis is flagged during the official submission process, the following steps typically apply under UGC 2018 regulations:' },
+      { type: 'list', items: [
+        'Level 1 (10%–40%) — You are asked to revise and resubmit within 6 months. In most universities this is handled at the departmental level with guidance from your supervisor.',
+        'Level 2 (40%–60%) — A formal committee review takes place. You are debarred from resubmission for 1 year. The decision is communicated in writing.',
+        'Level 3 (above 60%) — 3-year debarment. In severe or repeated cases, degree cancellation or disciplinary action may follow. Most universities also report Level 3 cases to UGC.',
+        'Appeal process — Most universities allow a formal appeal within 30–60 days of the decision. An appeal typically requires you to demonstrate that matched content was properly cited or that the tool produced a false positive. Supporting evidence (citations, research notes, drafts) is helpful in an appeal.'
+      ]},
+      { type: 'heading', text: 'Common Mistakes That Increase Your Similarity Score' },
+      { type: 'paragraph', text: 'Many students are surprised by high scores because of avoidable mistakes. Here are the most common ones:' },
+      { type: 'list', items: [
+        'Pasting text from your own seminar papers or conference presentations — self-plagiarism is still counted.',
+        'Copying the methodology section from a standard protocol or published paper without paraphrasing.',
+        'Including the full text of survey instruments, questionnaires, or standard scales in the appendix.',
+        'Not updating literature review paragraphs from earlier chapter drafts that were previously submitted.',
+        'Using the same introduction or abstract across multiple submissions to different journals or committees.'
+      ]},
       { type: 'heading', text: 'How to Stay Compliant' },
       { type: 'list', items: [
         'Run a plagiarism check on each chapter as you complete it — don\'t wait until the thesis is finished.',
-        'Use non-repository scans for all pre-submission checks to protect your drafts.',
+        'Use non-repository scans for all pre-submission checks to protect your drafts from being indexed.',
         'Properly cite all quotations, data, and references throughout your thesis.',
         'Paraphrase in your own words rather than directly copying even with citation, where possible.',
         'Check your abstract and introduction separately — these are often the most matched sections.',
-        'Allow time for revisions — rushing a thesis increases plagiarism risk significantly.'
+        'Allow time for revisions — rushing a thesis increases plagiarism risk significantly.',
+        'Keep records of all your similarity check reports in case you need to show improvement during an appeal.'
       ]},
       { type: 'heading', text: 'What If Your Score Is Too High?' },
-      { type: 'paragraph', text: 'If your plagiarism check comes back with a score above your university\'s threshold, don\'t panic. Identify the matched sections from your report and work through them:' },
+      { type: 'paragraph', text: 'If your plagiarism check comes back with a score above your university\'s threshold, don\'t panic. Identify the matched sections from your report and work through them systematically:' },
       { type: 'list', items: [
         'Paraphrase matched content — rewrite in your own words while keeping the meaning.',
         'Add proper citations — if content is from a source, cite it correctly.',
         'Remove unnecessary direct quotations — use them only where the exact wording matters.',
-        'Check your methodology section — boilerplate methodology text is often flagged.',
-        'Use PlagExpert\'s plagiarism removal support — our team can help identify and improve problem sections.'
+        'Check your methodology section — boilerplate methodology text is a very common source of matches.',
+        'Check your literature review — copying sentences from abstracts or papers to summarise them is a common mistake.',
+        'Use PlagExpert\'s plagiarism removal support — our team can help identify and improve problem sections before your resubmission.'
       ]},
-      { type: 'cta', text: 'Get a non-repository similarity check before you submit — starting at ₹99.' },
+      { type: 'paragraph', text: 'Getting a pre-submission check with PlagExpert before your official submission gives you the chance to identify and fix these issues without any academic consequences. It is always better to discover a high score on your own than to have your university discover it during the official submission.' },
+      { type: 'cta', text: 'Get a non-repository similarity check before you submit — starting at ₹150.' },
     ]
   },
 
@@ -270,7 +343,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: 'This guide covers the key requirements for the most common universities PlagExpert students come from.' },
       { type: 'heading', text: 'IIT Madras, IIT Delhi, IIT Bombay, IIT Kharagpur' },
       { type: 'paragraph', text: 'IITs typically have strict plagiarism policies. Most require a similarity report with a threshold well below 10% for the thesis body (excluding references and properly cited content). The report format should clearly show matched sources, percentage per section, and overall similarity.' },
-      { type: 'paragraph', text: 'IIT students often need multiple pre-submission checks — checking each chapter separately and then the full thesis. Our Research Plan (15 files) is popular with IIT PhD scholars for this reason.' },
+      { type: 'paragraph', text: 'IIT students often need multiple pre-submission checks — checking each chapter separately and then the full thesis. Our Thesis Bundle (15 files) is popular with IIT PhD scholars for this reason.' },
       { type: 'heading', text: 'Anna University and Tamil Nadu Universities' },
       { type: 'paragraph', text: 'Anna University and many affiliated colleges in Tamil Nadu commonly accept Drillbit reports and similarity reports. Drillbit has a strong presence in Tamil Nadu and is sometimes specifically required by departments within Anna University.' },
       { type: 'paragraph', text: 'Saveetha University and SRM are among the major Tamil Nadu institutions where Drillbit reports are commonly requested. Always confirm with your research guide which format is required.' },
@@ -373,7 +446,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: 'Yes — and this is a common situation. A student might write entirely original content (low similarity) but write in a very formal, structured way that AI detectors flag (high AI score). This is why both checks together give a more complete picture of your submission.' },
       { type: 'heading', text: 'PlagExpert Reports Include Both' },
       { type: 'paragraph', text: 'Every PlagExpert report includes both your similarity score and your AI detection score at no extra charge. You receive one comprehensive report with both scores, matched sections highlighted, and source references — everything you need to review and improve your submission before the deadline.' },
-      { type: 'cta', text: 'Get your similarity and AI detection report in 30 minutes — starting at ₹99.' },
+      { type: 'cta', text: 'Get your similarity and AI detection report in 30 minutes — starting at ₹150.' },
     ]
   },
 ]

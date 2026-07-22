@@ -17,7 +17,7 @@ const closeMobileMenu = () => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-[#E2E8F0] bg-white/95 backdrop-blur-xl">
+  <header class="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur-xl">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <NuxtLink
@@ -37,8 +37,8 @@ const closeMobileMenu = () => {
             v-for="link in navLinks"
             :key="link.to"
             :to="link.to"
-            class="rounded-full px-4 py-2 text-sm font-semibold text-[#334155] transition duration-200 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
-            active-class="bg-[#EFF6FF] text-[#1D4ED8]"
+            class="rounded-full px-4 py-2 text-sm font-semibold text-body transition duration-200 hover:bg-primary-50 hover:text-primary-hover"
+            active-class="bg-primary-50 text-primary-hover"
           >
             {{ link.label }}
           </NuxtLink>
@@ -48,7 +48,7 @@ const closeMobileMenu = () => {
         <div class="hidden md:block">
           <a
             :href="portalLoginUrl"
-            class="inline-flex rounded-full border border-[#E2E8F0] bg-white px-5 py-2.5 text-sm font-semibold text-[#0F172A] shadow-sm transition duration-200 hover:border-[#2563EB] hover:bg-[#EFF6FF]"
+            class="inline-flex rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink shadow-sm transition duration-200 hover:border-primary hover:bg-primary-50"
           >
             Login Portal
           </a>
@@ -56,7 +56,7 @@ const closeMobileMenu = () => {
 
         <button
           type="button"
-          class="inline-flex items-center justify-center rounded-full border border-[#E2E8F0] p-2.5 text-[#0B1F3A] transition duration-200 hover:border-[#2563EB] hover:bg-[#EFF6FF] hover:text-[#1D4ED8] md:hidden"
+          class="inline-flex items-center justify-center rounded-full border border-line p-2.5 text-navy transition duration-200 hover:border-primary hover:bg-primary-50 hover:text-primary-hover md:hidden"
           :aria-expanded="mobileMenuOpen"
           aria-label="Toggle navigation menu"
           @click="mobileMenuOpen = !mobileMenuOpen"
@@ -103,15 +103,15 @@ const closeMobileMenu = () => {
       >
         <div
           v-if="mobileMenuOpen"
-          class="border-t border-[#E2E8F0] py-4 md:hidden"
+          class="border-t border-line py-4 md:hidden"
         >
           <nav class="grid gap-2">
             <NuxtLink
               v-for="link in navLinks"
               :key="link.to"
               :to="link.to"
-              class="rounded-2xl px-4 py-3 text-sm font-semibold text-[#334155] transition duration-200 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
-              active-class="bg-[#EFF6FF] text-[#1D4ED8]"
+              class="rounded-2xl px-4 py-3 text-sm font-semibold text-body transition duration-200 hover:bg-primary-50 hover:text-primary-hover"
+              active-class="bg-primary-50 text-primary-hover"
               @click="closeMobileMenu"
             >
               {{ link.label }}
@@ -119,7 +119,7 @@ const closeMobileMenu = () => {
 
             <a
               :href="portalLoginUrl"
-              class="mt-1 inline-flex items-center justify-center rounded-full border border-[#E2E8F0] bg-white px-4 py-3 text-sm font-semibold text-[#0F172A] shadow-sm transition duration-200 hover:border-[#2563EB] hover:bg-[#EFF6FF]"
+              class="mt-1 inline-flex items-center justify-center rounded-full border border-line bg-white px-4 py-3 text-sm font-semibold text-ink shadow-sm transition duration-200 hover:border-primary hover:bg-primary-50"
               @click="closeMobileMenu"
             >
               Login Portal

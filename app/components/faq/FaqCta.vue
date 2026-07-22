@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-4xl">
       <div class="rounded-[2rem] border border-[var(--plagexpert-border)] bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFC_100%)] p-6 shadow-[0_24px_70px_rgba(16,24,40,0.06)] sm:p-8 md:p-10">
         <div class="text-center">
-          <h2 class="text-2xl font-bold tracking-tight text-[var(--plagexpert-primary-navy)] sm:text-3xl md:text-4xl">
+          <h2 class="text-2xl font-semibold tracking-tight text-[var(--plagexpert-primary-navy)] sm:text-3xl md:text-4xl">
             Still have questions?
           </h2>
 

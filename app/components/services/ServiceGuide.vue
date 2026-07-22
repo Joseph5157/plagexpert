@@ -19,14 +19,14 @@ const recommendations = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
+  <section class="bg-surface px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
           Help choosing
         </p>
 
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl md:text-5xl">
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl md:text-5xl">
           Not sure which service to choose?
         </h2>
       </div>
@@ -35,17 +35,17 @@ const recommendations = [
         <article
           v-for="item in recommendations"
           :key="item.title"
-          class="rounded-[2rem] border border-[#E2E8F0] bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] sm:p-7"
+          class="rounded-[2rem] border border-line bg-white p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] sm:p-7"
         >
-          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#ECFDF5] text-2xl shadow-inner">
+          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-50 text-2xl shadow-inner">
             {{ item.icon }}
           </div>
 
-          <h3 class="mt-5 text-lg font-bold tracking-tight text-[#0F172A]">
+          <h3 class="mt-5 text-lg font-semibold tracking-tight text-ink">
             {{ item.title }}
           </h3>
 
-          <p class="mt-3 text-sm leading-7 text-[#334155]">
+          <p class="mt-3 text-base leading-7 text-body">
             {{ item.description }}
           </p>
         </article>

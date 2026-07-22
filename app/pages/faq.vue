@@ -39,7 +39,7 @@ useHead({
           {
             '@type': 'Question',
             name: 'Which plan is best for thesis work?',
-            acceptedAnswer: { '@type': 'Answer', text: 'The Standard Plan is usually best for repeated checks and thesis drafts.' }
+            acceptedAnswer: { '@type': 'Answer', text: 'The Thesis Bundle (15 files for ₹2,100) is usually best for repeated checks and thesis drafts.' }
           },
           {
             '@type': 'Question',
@@ -129,7 +129,7 @@ const sections = [
     items: [
       {
         question: 'Which plan is best for thesis work?',
-        answer: 'The Student plan is usually best for repeated checks and thesis drafts.'
+        answer: 'The Thesis Bundle (15 files for ₹2,100) is usually best for repeated checks and thesis drafts.'
       },
       {
         question: 'Can departments get custom pricing?',

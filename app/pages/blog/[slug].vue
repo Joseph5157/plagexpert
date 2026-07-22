@@ -64,16 +64,16 @@ const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3)
     <section class="bg-[linear-gradient(180deg,#F8FAFC_0%,#EFF6FF_100%)] px-4 pt-10 pb-8 sm:pt-14 sm:pb-10">
       <div class="mx-auto max-w-3xl">
         <div class="flex items-center gap-3 mb-5">
-          <NuxtLink to="/blog" class="text-sm text-[#2563EB] hover:underline">← Blog</NuxtLink>
+          <NuxtLink to="/blog" class="text-sm text-primary hover:underline">← Blog</NuxtLink>
           <span class="text-[#CBD5E1]">/</span>
-          <span class="rounded-full bg-[#EFF6FF] px-3 py-1 text-xs font-semibold text-[#2563EB]">{{ post.category }}</span>
+          <span class="rounded-full bg-primary-50 px-3 py-1 text-xs font-semibold text-primary">{{ post.category }}</span>
         </div>
 
-        <h1 class="text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl leading-tight">
+        <h1 class="text-3xl font-semibold tracking-tight text-ink sm:text-4xl leading-tight">
           {{ post.title }}
         </h1>
 
-        <div class="mt-4 flex flex-wrap items-center gap-4 text-sm text-[#64748B]">
+        <div class="mt-4 flex flex-wrap items-center gap-4 text-sm text-muted">
           <span>{{ formatDate(post.date) }}</span>
           <span>·</span>
           <span>{{ post.readTime }}</span>
@@ -91,21 +91,21 @@ const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3)
 
             <h2
               v-if="section.type === 'heading'"
-              class="mt-10 mb-4 text-2xl font-bold tracking-tight text-[#0F172A]"
+              class="mt-10 mb-4 text-2xl font-bold tracking-tight text-ink"
             >
               {{ section.text }}
             </h2>
 
             <h3
               v-else-if="section.type === 'subheading'"
-              class="mt-6 mb-3 text-xl font-bold text-[#0F172A]"
+              class="mt-6 mb-3 text-xl font-bold text-ink"
             >
               {{ section.text }}
             </h3>
 
             <p
               v-else-if="section.type === 'paragraph'"
-              class="mt-4 text-base leading-8 text-[#334155]"
+              class="mt-4 text-base leading-8 text-body"
             >
               {{ section.text }}
             </p>
@@ -117,9 +117,9 @@ const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3)
               <li
                 v-for="item in section.items"
                 :key="item"
-                class="flex gap-3 text-base leading-7 text-[#334155]"
+                class="flex gap-3 text-base leading-7 text-body"
               >
-                <span class="mt-1 text-[#0D9488] flex-shrink-0">✓</span>
+                <span class="mt-1 text-primary flex-shrink-0">✓</span>
                 <span>{{ item }}</span>
               </li>
             </ul>
@@ -127,19 +127,19 @@ const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3)
             <!-- CTA Box -->
             <div
               v-else-if="section.type === 'cta'"
-              class="mt-10 rounded-[2rem] bg-[#EFF6FF] border border-[#BFDBFE] p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"
+              class="mt-10 rounded-[2rem] bg-primary-50 border border-primary-200 p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"
             >
-              <p class="text-base font-semibold text-[#0F172A]">{{ section.text }}</p>
+              <p class="text-base font-semibold text-ink">{{ section.text }}</p>
               <div class="flex gap-3 flex-shrink-0">
                 <a
                   :href="getWhatsAppUrl()"
-                  class="inline-flex items-center rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(22,163,74,0.22)] transition hover:bg-[#15803D]"
+                  class="inline-flex items-center rounded-full bg-whatsapp px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(22,163,74,0.22)] transition hover:bg-whatsapp-hover"
                 >
                   WhatsApp
                 </a>
                 <NuxtLink
                   to="/pricing"
-                  class="inline-flex items-center rounded-full border border-[#E2E8F0] bg-white px-5 py-2.5 text-sm font-semibold text-[#0F172A] transition hover:border-[#2563EB] hover:bg-white"
+                  class="inline-flex items-center rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:border-primary hover:bg-white"
                 >
                   View Plans
                 </NuxtLink>
@@ -150,20 +150,20 @@ const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3)
         </article>
 
         <!-- Divider -->
-        <hr class="mt-14 border-[#E2E8F0]">
+        <hr class="mt-14 border-line">
 
         <!-- Related Articles -->
         <div class="mt-10">
-          <p class="text-sm font-bold uppercase tracking-widest text-[#64748B] mb-6">Related Articles</p>
+          <p class="text-sm font-bold uppercase tracking-widest text-muted mb-6">Related Articles</p>
           <div class="grid gap-4 sm:grid-cols-3">
             <NuxtLink
               v-for="related in relatedPosts"
               :key="related.slug"
               :to="`/blog/${related.slug}`"
-              class="group rounded-2xl border border-[#E2E8F0] bg-[#F8FAFC] p-4 transition hover:border-[#2563EB]/30 hover:bg-[#EFF6FF]/30"
+              class="group rounded-2xl border border-line bg-surface p-4 transition hover:border-primary/30 hover:bg-primary-50/30"
             >
-              <span class="text-[10px] font-bold uppercase tracking-widest text-[#0D9488]">{{ related.category }}</span>
-              <p class="mt-2 text-sm font-semibold text-[#0F172A] group-hover:text-[#2563EB] leading-snug transition-colors">{{ related.title }}</p>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-primary">{{ related.category }}</span>
+              <p class="mt-2 text-sm font-semibold text-ink group-hover:text-primary leading-snug transition-colors">{{ related.title }}</p>
               <p class="mt-1 text-xs text-[#94A3B8]">{{ related.readTime }}</p>
             </NuxtLink>
           </div>

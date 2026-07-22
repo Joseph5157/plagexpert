@@ -22,7 +22,7 @@ const stats = [
           <div class="text-2xl font-bold tracking-tight leading-none">
             {{ stat.value }}
           </div>
-          <p class="mt-1.5 text-xs leading-5 text-[#EFF6FF]">
+          <p class="mt-1.5 text-xs leading-5 text-primary-50">
             {{ stat.label }}
           </p>
         </div>
@@ -39,7 +39,7 @@ const stats = [
             {{ stat.value }}
           </div>
 
-          <p class="mt-2 text-xs leading-5 text-[#EFF6FF] sm:text-sm">
+          <p class="mt-2 text-xs leading-5 text-primary-50 sm:text-sm">
             {{ stat.label }}
           </p>
         </div>

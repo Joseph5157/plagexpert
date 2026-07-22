@@ -5,7 +5,7 @@
         FAQ
       </p>
 
-      <h1 class="mt-3 text-3xl font-bold tracking-tight text-[var(--plagexpert-primary-navy)] sm:text-4xl md:text-5xl">
+      <h1 class="mt-3 text-3xl font-semibold tracking-tight text-[var(--plagexpert-primary-navy)] sm:text-4xl md:text-5xl">
         Frequently asked questions
       </h1>
 

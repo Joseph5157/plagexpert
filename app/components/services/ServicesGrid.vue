@@ -49,15 +49,15 @@ const services = [
   <section class="bg-white px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl text-center">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
           All services
         </p>
 
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl md:text-5xl">
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl md:text-5xl">
           Practical support for academic documents
         </h2>
 
-        <p class="mt-4 text-base leading-7 text-[#334155] md:text-lg">
+        <p class="mt-4 text-base leading-7 text-body md:text-lg">
           Each service is focused on helping you prepare, review, and submit with confidence.
         </p>
       </div>
@@ -66,27 +66,27 @@ const services = [
         <article
           v-for="service in services"
           :key="service.title"
-          class="flex h-full flex-col rounded-[2rem] border border-[#E2E8F0] bg-[#F8FAFC] p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(16,24,40,0.12)]"
+          class="flex h-full flex-col rounded-[2rem] border border-line bg-surface p-6 shadow-[0_18px_50px_rgba(16,24,40,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(16,24,40,0.12)]"
         >
-          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#EFF6FF] text-2xl shadow-inner">
+          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-50 text-2xl shadow-inner">
             {{ service.icon }}
           </div>
 
-          <h3 class="mt-5 text-lg font-bold tracking-tight text-[#0F172A]">
+          <h3 class="mt-5 text-lg font-semibold tracking-tight text-ink">
             {{ service.title }}
           </h3>
 
-          <p class="mt-3 text-sm leading-7 text-[#334155]">
+          <p class="mt-3 text-base leading-7 text-body">
             {{ service.description }}
           </p>
 
-          <ul class="mt-5 space-y-2 text-sm text-[#334155]">
+          <ul class="mt-5 space-y-2 text-sm text-body">
             <li
               v-for="feature in service.features"
               :key="feature"
               class="flex gap-2"
             >
-              <span class="text-[#0D9488]">✓</span>
+              <span class="text-primary">✓</span>
               <span>{{ feature }}</span>
             </li>
           </ul>
@@ -94,7 +94,7 @@ const services = [
           <div class="mt-auto pt-6">
             <a
               :href="getWhatsAppUrl()"
-              class="flex w-full items-center justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-[#1D4ED8]"
+              class="flex w-full items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(37,99,235,0.22)] transition hover:bg-primary-hover"
             >
               Select Service
             </a>

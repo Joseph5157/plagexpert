@@ -38,7 +38,7 @@ defineProps({
             </summary>
 
             <div class="px-5 pb-5 pt-0 sm:px-6">
-              <div class="border-t border-[var(--plagexpert-border)] pt-4 text-sm leading-7 text-[var(--plagexpert-text-body)] sm:text-base sm:leading-8">
+              <div class="border-t border-[var(--plagexpert-border)] pt-4 text-base leading-7 text-[var(--plagexpert-text-body)] sm:text-base sm:leading-8">
                 {{ item.answer }}
               </div>
             </div>

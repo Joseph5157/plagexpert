@@ -23,11 +23,11 @@ const items = [
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-10">
         <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#EFF6FF]">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary-50">
             Confidential by design
           </p>
 
-          <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
             100% confidential report handling
           </h2>
 
@@ -38,7 +38,7 @@ const items = [
           </p>
 
           <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a :href="getWhatsAppUrl()" class="inline-flex w-full items-center justify-center rounded-full bg-[#16A34A] px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D] sm:w-auto">
+            <a :href="getWhatsAppUrl()" class="inline-flex w-full items-center justify-center rounded-full bg-whatsapp px-7 py-3 text-center text-sm font-semibold text-white shadow-[0_18px_40px_rgba(22,163,74,0.24)] transition hover:bg-whatsapp-hover sm:w-auto">
               Start on WhatsApp
             </a>
 
@@ -49,7 +49,7 @@ const items = [
         </div>
 
         <div class="sm:hidden">
-          <p class="text-sm leading-7 text-[#D0D5DD]">
+          <p class="text-base leading-7 text-[#D0D5DD]">
             No repository storage. Only you receive the report. Files deleted after delivery.
           </p>
         </div>

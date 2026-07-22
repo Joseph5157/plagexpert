@@ -24,15 +24,15 @@ const faqs = [
 </script>
 
 <template>
-  <section class="bg-[#F8FAFC] px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
+  <section class="bg-surface px-4 pt-4 pb-10 sm:pt-6 sm:pb-12 lg:pt-8 lg:pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-10">
         <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0D9488]">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
             FAQ
           </p>
 
-          <h2 class="mt-3 text-3xl font-bold tracking-tight text-[#0F172A] sm:text-4xl md:text-5xl">
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl md:text-5xl">
             Pricing questions answered
           </h2>
         </div>
@@ -41,14 +41,14 @@ const faqs = [
           <details
             v-for="faq in faqs"
             :key="faq.question"
-            class="group rounded-[1.75rem] border border-[#E2E8F0] bg-white p-5 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
+            class="group rounded-[1.75rem] border border-line bg-white p-5 shadow-[0_18px_50px_rgba(16,24,40,0.06)]"
           >
-            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-[#0F172A]">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-ink">
               <span>{{ faq.question }}</span>
-              <span class="text-2xl leading-none text-[#0D9488] transition group-open:rotate-45">+</span>
+              <span class="text-2xl leading-none text-primary transition group-open:rotate-45">+</span>
             </summary>
 
-            <p class="mt-4 text-sm leading-7 text-[#334155]">
+            <p class="mt-4 text-base leading-7 text-body">
               {{ faq.answer }}
             </p>
           </details>

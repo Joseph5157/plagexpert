@@ -16,17 +16,17 @@
         </p>
 
         <div class="mt-4 flex flex-wrap gap-2 text-xs">
-          <span class="rounded-full bg-white/10 px-3 py-1 text-[#E2E8F0]">
+          <span class="rounded-full bg-white/10 px-3 py-1 text-line">
             Non-repository scan
           </span>
-          <span class="rounded-full bg-white/10 px-3 py-1 text-[#E2E8F0]">
+          <span class="rounded-full bg-white/10 px-3 py-1 text-line">
             Files never stored
           </span>
         </div>
 
         <a
           :href="getWhatsAppUrl()"
-          class="mt-5 flex w-full items-center justify-center rounded-full bg-[#16A34A] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
+          class="mt-5 flex w-full items-center justify-center rounded-full bg-whatsapp px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-whatsapp-hover"
         >
           Chat on WhatsApp
         </a>
@@ -56,16 +56,16 @@
               >
             </NuxtLink>
 
-            <p class="mt-4 max-w-sm text-sm leading-7 text-[#D0D5DD]">
+            <p class="mt-4 max-w-sm text-base leading-7 text-[#D0D5DD]">
               Non-repository scans. Files never stored. Reports delivered fast
               with private handling and WhatsApp support.
             </p>
 
             <div class="mt-5 flex flex-wrap gap-2 text-xs">
-              <span class="rounded-full bg-white/10 px-3 py-1 text-[#E2E8F0]">
+              <span class="rounded-full bg-white/10 px-3 py-1 text-line">
                 Non-repository scan
               </span>
-              <span class="rounded-full bg-white/10 px-3 py-1 text-[#E2E8F0]">
+              <span class="rounded-full bg-white/10 px-3 py-1 text-line">
                 Files never stored
               </span>
             </div>
@@ -111,7 +111,7 @@
 
             <a
               :href="getWhatsAppUrl()"
-              class="mt-6 inline-flex rounded-full bg-[#16A34A] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-[#15803D]"
+              class="mt-6 inline-flex rounded-full bg-whatsapp px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.24)] transition hover:bg-whatsapp-hover"
             >
               Chat on WhatsApp
             </a>
