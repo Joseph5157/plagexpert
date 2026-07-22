@@ -25,6 +25,15 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: 'en' },
       title: 'PlagExpert — Plagiarism & AI Detection Reports for Students',
+      link: [
+        {
+          rel: 'preload',
+          as: 'font',
+          type: 'font/woff2',
+          href: '/fonts/fraunces-latin.woff2',
+          crossorigin: ''
+        }
+      ],
       meta: [
         {
           name: 'description',
