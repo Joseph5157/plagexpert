@@ -22,9 +22,12 @@ const portalLoginUrl = getPortalLoginUrl()
           Check your research paper, thesis, dissertation, or assignment using our advanced plagiarism and AI checking system. Non-repository scans. Delivery in 10–30 minutes.
         </p>
 
-        <p class="mt-4 text-sm font-semibold text-primary">
-          Trusted by 50,000+ students &amp; researchers
-        </p>
+        <div class="mt-5 flex items-center gap-3">
+          <span class="text-lg tracking-wider text-[#F59E0B]" aria-hidden="true">★★★★★</span>
+          <span class="text-sm text-muted">
+            <span class="font-semibold text-ink">4.9 / 5</span> from 50,000+ students &amp; researchers
+          </span>
+        </div>
 
         <div class="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:gap-4">
           <BaseButton :href="getWhatsAppUrl()" variant="whatsapp" size="lg" class="w-full sm:w-auto">

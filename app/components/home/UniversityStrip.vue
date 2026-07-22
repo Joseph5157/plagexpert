@@ -1,5 +1,5 @@
 <template>
-  <section class="border-y border-line bg-surface px-4 py-5 sm:py-6">
+  <section class="border-y border-line bg-white px-4 py-5 sm:py-6">
     <div class="mx-auto max-w-7xl">
       <p class="mb-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-[#94A3B8]">
         Trusted by students &amp; researchers from

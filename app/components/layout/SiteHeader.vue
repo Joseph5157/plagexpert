@@ -17,7 +17,7 @@ const closeMobileMenu = () => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur-xl">
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0B1F3A] text-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <NuxtLink
@@ -25,38 +25,46 @@ const closeMobileMenu = () => {
           class="inline-flex items-center gap-3"
           @click="closeMobileMenu"
         >
-          <img
-            src="/brand/plagexpert-logo.png"
-            alt="PlagExpert"
-            class="h-10 w-auto sm:h-12"
-          >
+          <span class="inline-flex items-center rounded-lg bg-white px-2.5 py-1.5">
+            <img
+              src="/brand/plagexpert-logo.png"
+              alt="PlagExpert"
+              class="h-6 w-auto sm:h-7"
+            >
+          </span>
         </NuxtLink>
 
-        <nav class="hidden items-center gap-2 md:flex">
+        <nav class="hidden items-center gap-1 md:flex">
           <NuxtLink
             v-for="link in navLinks"
             :key="link.to"
             :to="link.to"
-            class="rounded-full px-4 py-2 text-sm font-semibold text-body transition duration-200 hover:bg-primary-50 hover:text-primary-hover"
-            active-class="bg-primary-50 text-primary-hover"
+            class="rounded-full px-4 py-2 text-sm font-medium text-[#CDD9EA] transition duration-200 hover:bg-white/10 hover:text-white"
+            active-class="bg-white/10 text-white"
           >
             {{ link.label }}
           </NuxtLink>
 
         </nav>
 
-        <div class="hidden md:block">
+        <div class="hidden items-center gap-3 md:flex">
           <a
             :href="portalLoginUrl"
-            class="inline-flex rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink shadow-sm transition duration-200 hover:border-primary hover:bg-primary-50"
+            class="text-sm font-semibold text-[#CDD9EA] transition duration-200 hover:text-white"
           >
             Login Portal
+          </a>
+          <a
+            :href="getWhatsAppUrl()"
+            class="inline-flex rounded-full bg-whatsapp px-5 py-2.5 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.28)] transition duration-200 hover:bg-whatsapp-hover"
+          >
+            Chat on WhatsApp
           </a>
         </div>
 
         <button
           type="button"
-          class="inline-flex items-center justify-center rounded-full border border-line p-2.5 text-navy transition duration-200 hover:border-primary hover:bg-primary-50 hover:text-primary-hover md:hidden"
+          class="inline-flex items-center justify-center rounded-full border border-white/20 p-2.5 text-white transition duration-200 hover:border-white/40 hover:bg-white/10 md:hidden"
           :aria-expanded="mobileMenuOpen"
           aria-label="Toggle navigation menu"
           @click="mobileMenuOpen = !mobileMenuOpen"
@@ -103,23 +111,30 @@ const closeMobileMenu = () => {
       >
         <div
           v-if="mobileMenuOpen"
-          class="border-t border-line py-4 md:hidden"
+          class="border-t border-white/10 py-4 md:hidden"
         >
           <nav class="grid gap-2">
             <NuxtLink
               v-for="link in navLinks"
               :key="link.to"
               :to="link.to"
-              class="rounded-2xl px-4 py-3 text-sm font-semibold text-body transition duration-200 hover:bg-primary-50 hover:text-primary-hover"
-              active-class="bg-primary-50 text-primary-hover"
+              class="rounded-2xl px-4 py-3 text-sm font-semibold text-[#CDD9EA] transition duration-200 hover:bg-white/10 hover:text-white"
+              active-class="bg-white/10 text-white"
               @click="closeMobileMenu"
             >
               {{ link.label }}
             </NuxtLink>
 
             <a
+              :href="getWhatsAppUrl()"
+              class="mt-1 inline-flex items-center justify-center rounded-full bg-whatsapp px-4 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(22,163,74,0.28)] transition duration-200 hover:bg-whatsapp-hover"
+              @click="closeMobileMenu"
+            >
+              Chat on WhatsApp
+            </a>
+            <a
               :href="portalLoginUrl"
-              class="mt-1 inline-flex items-center justify-center rounded-full border border-line bg-white px-4 py-3 text-sm font-semibold text-ink shadow-sm transition duration-200 hover:border-primary hover:bg-primary-50"
+              class="inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-white/10"
               @click="closeMobileMenu"
             >
               Login Portal

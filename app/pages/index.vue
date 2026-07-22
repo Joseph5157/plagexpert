@@ -4,13 +4,14 @@
     <div class="order-3  sm:order-2"><TrustStrip /></div>
     <div class="order-2  sm:order-3"><StatsSection /></div>
     <div class="order-4  sm:order-4"><UniversityStrip /></div>
-    <div class="order-5  sm:order-5"><TrustSection /></div>
-    <div class="order-6  sm:order-6"><HowItWorksSection /></div>
-    <div class="order-7  sm:order-7"><ServicesPreview /></div>
-    <div class="order-8  sm:order-8"><PricingPreview /></div>
-    <div class="order-9  sm:order-9"><TestimonialsSection /></div>
-    <div class="order-10 sm:order-10"><FaqPreview /></div>
-    <div class="order-11 sm:order-11"><ContactSection /></div>
+    <div class="order-5  sm:order-5"><PrivacySplit /></div>
+    <div class="order-6  sm:order-6"><ThesisCallout /></div>
+    <div class="order-7  sm:order-7"><HowItWorksSection /></div>
+    <div class="order-8  sm:order-8"><ServicesPreview /></div>
+    <div class="order-9  sm:order-9"><PricingPreview /></div>
+    <div class="order-10 sm:order-10"><TestimonialsSection /></div>
+    <div class="order-11 sm:order-11"><FaqPreview /></div>
+    <div class="order-12 sm:order-12"><ContactSection /></div>
   </main>
 </template>
 
@@ -155,7 +156,8 @@ useHead({
 import HeroSection from '~/components/home/HeroSection.vue'
 import TrustStrip from '~/components/home/TrustStrip.vue'
 import UniversityStrip from '~/components/home/UniversityStrip.vue'
-import TrustSection from '~/components/home/TrustSection.vue'
+import PrivacySplit from '~/components/home/PrivacySplit.vue'
+import ThesisCallout from '~/components/home/ThesisCallout.vue'
 import HowItWorksSection from '~/components/home/HowItWorksSection.vue'
 import ServicesPreview from '~/components/home/ServicesPreview.vue'
 import StatsSection from '~/components/home/StatsSection.vue'
