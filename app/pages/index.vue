@@ -21,7 +21,7 @@ useSeoMeta({
   description: 'Get accurate plagiarism and AI detection reports for your thesis, dissertation, or assignment. Non-repository scans. Delivery in 10–30 minutes. Trusted by 50,000+ students across IIT, VTU, Anna University, Amity, SRM, VIT and more.',
   ogTitle: 'PlagExpert — Plagiarism & AI Reports for Academic Success',
   ogDescription: 'Plagiarism and AI detection reports. Fast, private, non-repository. Trusted by 50,000+ students across India.',
-  ogImage: '/illustrations/hero-student-portal.png',
+  ogImage: '/illustrations/hero-student-portal.webp',
   twitterCard: 'summary_large_image'
 })
 
@@ -48,6 +48,28 @@ useHead({
         sameAs: [
           'https://wa.me/916309872817'
         ]
+      })
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: 'PlagExpert',
+        description: 'Non-repository plagiarism and AI detection reports for students and researchers across India. Delivery in 10–30 minutes.',
+        url: 'https://plagexpert.in',
+        telephone: '+91-6309872817',
+        email: 'support@plagexpert.in',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Hyderabad',
+          addressRegion: 'Telangana',
+          addressCountry: 'IN'
+        },
+        areaServed: 'IN',
+        priceRange: '₹150 - ₹2,100',
+        openingHours: 'Mo-Su 00:00-24:00',
+        image: 'https://plagexpert.in/brand/plagexpert-logo.png'
       })
     },
     {

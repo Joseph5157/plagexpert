@@ -9,13 +9,13 @@
         Frequently asked questions
       </h1>
 
-      <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-[var(--plagexpert-text-body)] md:text-lg md:leading-8">
+      <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-[var(--plagexpert-text-body)] md:text-lg md:leading-8" data-speakable>
         Find clear answers about document safety, delivery time, report options, AI detection, payments, the WhatsApp process, and portal access.
       </p>
 
       <div class="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center sm:gap-4">
         <a
-          href="#"
+          :href="getWhatsAppUrl('Hi PlagExpert! I have a question about your plagiarism checking service.')"
           class="inline-flex items-center justify-center rounded-full bg-[var(--plagexpert-trust-green)] px-7 py-3 text-sm font-semibold text-white shadow-[0_16px_36px_rgba(22,163,74,0.24)] transition hover:bg-[var(--plagexpert-trust-green-hover)]"
         >
           Chat on WhatsApp

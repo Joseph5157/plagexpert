@@ -3982,7 +3982,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "129293dc-6b03-4a11-bfd0-0a0dfa9a1bdc",
+    "buildId": "e6042438-0165-4cb2-b979-4e6e6b6a4252",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4320,12 +4320,12 @@ const plugins = [
 ];
 
 const assets = {
-  "/apple-touch-icon.png": {
-    "type": "image/png",
-    "etag": "\"1f52-932fXhdcVtQtE50bEEjMJBeYToc\"",
-    "mtime": "2026-04-27T15:59:31.929Z",
-    "size": 8018,
-    "path": "../public/apple-touch-icon.png"
+  "/.htaccess": {
+    "type": "text/plain; charset=utf-8",
+    "etag": "\"6d8-Uv1c8JJQEPUK1++qeQkyGVPjIh8\"",
+    "mtime": "2026-07-22T10:20:26.522Z",
+    "size": 1752,
+    "path": "../public/.htaccess"
   },
   "/favicon-16x16.png": {
     "type": "image/png",
@@ -4333,6 +4333,13 @@ const assets = {
     "mtime": "2026-04-27T15:59:31.913Z",
     "size": 639,
     "path": "../public/favicon-16x16.png"
+  },
+  "/apple-touch-icon.png": {
+    "type": "image/png",
+    "etag": "\"1f52-932fXhdcVtQtE50bEEjMJBeYToc\"",
+    "mtime": "2026-04-27T15:59:31.929Z",
+    "size": 8018,
+    "path": "../public/apple-touch-icon.png"
   },
   "/favicon-32x32.png": {
     "type": "image/png",
@@ -4362,6 +4369,13 @@ const assets = {
     "size": 33126,
     "path": "../public/favicon.png"
   },
+  "/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-rjs7K0jG+zf8HdrvJ40e/StW9Ng\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/index.html"
+  },
   "/logo.png.jpeg": {
     "type": "image/jpeg",
     "etag": "\"8d8d-A8tU2bbVShM3kS88uH6A5BZ6Lfg\"",
@@ -4378,17 +4392,31 @@ const assets = {
   },
   "/sitemap.xml": {
     "type": "application/xml",
-    "etag": "\"8ee-QCKn3zH3C/kl3n5zeYg+/NvLxWg\"",
-    "mtime": "2026-05-31T08:50:58.405Z",
-    "size": 2286,
+    "etag": "\"9db-bOqL40wawpa670W1TmcnF3wcwlE\"",
+    "mtime": "2026-07-22T10:24:01.507Z",
+    "size": 2523,
     "path": "../public/sitemap.xml"
   },
-  "/brand/plagexpert-logo.png": {
-    "type": "image/png",
-    "etag": "\"8cb5-WY40nXZs2eAYdUmn3Fqpd8kcstU\"",
-    "mtime": "2026-05-01T06:56:27.805Z",
-    "size": 36021,
-    "path": "../public/brand/plagexpert-logo.png"
+  "/contact/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-wDI2pLed/EFAf0gKr2diiM4fPyA\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/contact/index.html"
+  },
+  "/blog/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-ez1hJ8qW7lU28gCGGBq4zkKmCLI\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/index.html"
+  },
+  "/faq/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-wDI2pLed/EFAf0gKr2diiM4fPyA\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/faq/index.html"
   },
   "/fonts/fraunces-latin.woff2": {
     "type": "font/woff2",
@@ -4397,139 +4425,6 @@ const assets = {
     "size": 67304,
     "path": "../public/fonts/fraunces-latin.woff2"
   },
-  "/blog/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-dsHnN9HXWlyD8A5A5a5a1JLyfuU\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/index.html"
-  },
-  "/_nuxt/38r-YxSc.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"123-5VWmjzpECwz0iC3CvXJVXtPxWxg\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 291,
-    "path": "../public/_nuxt/38r-YxSc.js"
-  },
-  "/_nuxt/BMkplOrW.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2ac0-M0zdTXIRmfTUITTvk6qh1hrOs5s\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 10944,
-    "path": "../public/_nuxt/BMkplOrW.js"
-  },
-  "/_nuxt/C0MNvieM.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"124b-JKtkysmaelhepFI6ptVVVKLVSrw\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 4683,
-    "path": "../public/_nuxt/C0MNvieM.js"
-  },
-  "/_nuxt/CJegXAx8.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"386b-zP0VWQcPH40y4daLGA+GsG8ixKQ\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 14443,
-    "path": "../public/_nuxt/CJegXAx8.js"
-  },
-  "/_nuxt/CYJ_B4IZ.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"a25-RCrDaVqZ5fIXbiL8kFGjQA+SC1w\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 2597,
-    "path": "../public/_nuxt/CYJ_B4IZ.js"
-  },
-  "/_nuxt/Cz6gAx15.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"14e7-wR7VAYiots27IYPmzC2V5S01sJM\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 5351,
-    "path": "../public/_nuxt/Cz6gAx15.js"
-  },
-  "/_nuxt/DHsl8cX3.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2448-bTUAof+82k5GBcWsI1tQnChAQfE\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 9288,
-    "path": "../public/_nuxt/DHsl8cX3.js"
-  },
-  "/_nuxt/DJr6pxzj.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"b25b-thNCumXdFLfS6V0zQ9lkCnDE8AI\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 45659,
-    "path": "../public/_nuxt/DJr6pxzj.js"
-  },
-  "/_nuxt/DlAUqK2U.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"5b-eFCz/UrraTh721pgAl0VxBNR1es\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 91,
-    "path": "../public/_nuxt/DlAUqK2U.js"
-  },
-  "/_nuxt/DputneHN.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"d96-3ZVAYCdqETBxPGDG12yniCCixe8\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 3478,
-    "path": "../public/_nuxt/DputneHN.js"
-  },
-  "/_nuxt/DqUB3ket.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"1e0e-Z2sdXt+HKR24LuRkbRoVVJicJJA\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 7694,
-    "path": "../public/_nuxt/DqUB3ket.js"
-  },
-  "/_nuxt/entry.hdkE8ktC.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"8c73-SqT2ipQ4Z+8TUKgXvMZEj8Q0Tlc\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 35955,
-    "path": "../public/_nuxt/entry.hdkE8ktC.css"
-  },
-  "/_nuxt/error-404.C-Ezrlz-.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"97e-YLcQ2HBNLea0KJoUeqSqSCendIU\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 2430,
-    "path": "../public/_nuxt/error-404.C-Ezrlz-.css"
-  },
-  "/_nuxt/error-500.DBWf9FGj.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"773-9MNIE+ztUss3x7HN62QKMFz0rhs\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 1907,
-    "path": "../public/_nuxt/error-500.DBWf9FGj.css"
-  },
-  "/_nuxt/J7ILHs5T.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"ecf-zlbDYjTmtmJcSCqUR5Os0g3A/Do\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 3791,
-    "path": "../public/_nuxt/J7ILHs5T.js"
-  },
-  "/_nuxt/pED5OkNU.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2a4d-nkurFmkuOXhJNF0bfqvLJqcQgpQ\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 10829,
-    "path": "../public/_nuxt/pED5OkNU.js"
-  },
-  "/_nuxt/uejafBEG.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"277f-GypkfQ5oSv5YFfgzhgmMxXBizIE\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 10111,
-    "path": "../public/_nuxt/uejafBEG.js"
-  },
-  "/_nuxt/ugJk8Grs.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"974f-7CGh+2MMm8NoJDEeQv/BaO9DaZw\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 38735,
-    "path": "../public/_nuxt/ugJk8Grs.js"
-  },
   "/illustrations/.gitkeep": {
     "type": "text/plain; charset=utf-8",
     "etag": "\"1-rcg7GeeTSRscbqD9i0bNnzLlkvw\"",
@@ -4537,103 +4432,54 @@ const assets = {
     "size": 1,
     "path": "../public/illustrations/.gitkeep"
   },
-  "/_nuxt/ZZE8UPxD.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2add1-vG+kTb8cmgJbG+zWoAzxSAOgkiA\"",
-    "mtime": "2026-07-22T10:06:28.250Z",
-    "size": 175569,
-    "path": "../public/_nuxt/ZZE8UPxD.js"
+  "/illustrations/hero-portal-report.webp": {
+    "type": "image/webp",
+    "etag": "\"6250-RRTI2b4POzJAp5MWKRhp43E4mVA\"",
+    "mtime": "2026-07-22T10:20:26.523Z",
+    "size": 25168,
+    "path": "../public/illustrations/hero-portal-report.webp"
   },
-  "/illustrations/hero-portal-report.jpg": {
+  "/illustrations/hero-student-portal.jpg": {
     "type": "image/jpeg",
-    "etag": "\"2368a-6CZ8p45jS+kIaj4ThB6jVNSSvHA\"",
-    "mtime": "2026-04-27T12:40:37.566Z",
-    "size": 145034,
-    "path": "../public/illustrations/hero-portal-report.jpg"
+    "etag": "\"12d81-OWVBzSw2a7gOCu2hTKYP+18DYOM\"",
+    "mtime": "2026-07-22T10:20:26.524Z",
+    "size": 77185,
+    "path": "../public/illustrations/hero-student-portal.jpg"
   },
-  "/illustrations/portal-workflow.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\"",
-    "mtime": "2026-04-27T12:52:12.153Z",
-    "size": 0,
-    "path": "../public/illustrations/portal-workflow.jpg"
+  "/illustrations/hero-student-portal.webp": {
+    "type": "image/webp",
+    "etag": "\"cc68-xAdBezq8Ma2PJ/tO5zFMfp/duGU\"",
+    "mtime": "2026-07-22T10:20:26.525Z",
+    "size": 52328,
+    "path": "../public/illustrations/hero-student-portal.webp"
   },
-  "/illustrations/secure-document-vault.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"25054-EjFvMHz628RpLZXT4LuFF0k28bE\"",
-    "mtime": "2026-04-27T12:41:58.828Z",
-    "size": 151636,
-    "path": "../public/illustrations/secure-document-vault.jpg"
+  "/illustrations/secure-document-vault.webp": {
+    "type": "image/webp",
+    "etag": "\"6462-9lYofSjOsrbLhrNF5HAWJLOokWk\"",
+    "mtime": "2026-07-22T10:20:26.526Z",
+    "size": 25698,
+    "path": "../public/illustrations/secure-document-vault.webp"
   },
-  "/blog/drillbit-vs-similarity-check/index.html": {
+  "/legal/index.html": {
     "type": "text/html;charset=utf-8",
-    "etag": "\"51e-nmUEsZeV5mt3FjgW/SV6ndiI0hQ\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
+    "etag": "\"51e-wDI2pLed/EFAf0gKr2diiM4fPyA\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
     "size": 1310,
-    "path": "../public/blog/drillbit-vs-similarity-check/index.html"
+    "path": "../public/legal/index.html"
   },
-  "/blog/how-to-check-plagiarism-for-thesis-india/index.html": {
+  "/pricing/index.html": {
     "type": "text/html;charset=utf-8",
-    "etag": "\"51e-G7iiD37QKREBrPFwwYrlkjNaUXY\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
+    "etag": "\"51e-wDI2pLed/EFAf0gKr2diiM4fPyA\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
     "size": 1310,
-    "path": "../public/blog/how-to-check-plagiarism-for-thesis-india/index.html"
+    "path": "../public/pricing/index.html"
   },
-  "/blog/how-long-does-plagiarism-report-take/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-nmUEsZeV5mt3FjgW/SV6ndiI0hQ\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/how-long-does-plagiarism-report-take/index.html"
-  },
-  "/blog/how-to-reduce-ai-detection-score/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-nmUEsZeV5mt3FjgW/SV6ndiI0hQ\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/how-to-reduce-ai-detection-score/index.html"
-  },
-  "/blog/plagiarism-check-iit-vtu-anna-university/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-nmUEsZeV5mt3FjgW/SV6ndiI0hQ\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/plagiarism-check-iit-vtu-anna-university/index.html"
-  },
-  "/blog/similarity-report-vs-ai-detection-difference/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-M3nv84GCIYIXNio7aaJcuNJHLvg\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/similarity-report-vs-ai-detection-difference/index.html"
-  },
-  "/blog/ugc-plagiarism-norms-india-2018/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-nmUEsZeV5mt3FjgW/SV6ndiI0hQ\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/ugc-plagiarism-norms-india-2018/index.html"
-  },
-  "/blog/what-is-non-repository-plagiarism-check/index.html": {
-    "type": "text/html;charset=utf-8",
-    "etag": "\"51e-G7iiD37QKREBrPFwwYrlkjNaUXY\"",
-    "mtime": "2026-07-22T10:06:33.346Z",
-    "size": 1310,
-    "path": "../public/blog/what-is-non-repository-plagiarism-check/index.html"
-  },
-  "/_nuxt/builds/latest.json": {
-    "type": "application/json",
-    "etag": "\"47-zpmZ+D48FpHkKCodN7kigCsKnxg\"",
-    "mtime": "2026-07-22T10:06:33.352Z",
-    "size": 71,
-    "path": "../public/_nuxt/builds/latest.json"
-  },
-  "/_nuxt/builds/meta/129293dc-6b03-4a11-bfd0-0a0dfa9a1bdc.json": {
-    "type": "application/json",
-    "etag": "\"58-/EWyWguowLQ5UViLWy3MjBniQPs\"",
-    "mtime": "2026-07-22T10:06:33.352Z",
-    "size": 88,
-    "path": "../public/_nuxt/builds/meta/129293dc-6b03-4a11-bfd0-0a0dfa9a1bdc.json"
+  "/brand/plagexpert-logo.png": {
+    "type": "image/png",
+    "etag": "\"8cb5-WY40nXZs2eAYdUmn3Fqpd8kcstU\"",
+    "mtime": "2026-07-22T10:24:01.432Z",
+    "size": 36021,
+    "path": "../public/brand/plagexpert-logo.png"
   },
   "/illustrations/how-it-works.png": {
     "type": "image/png",
@@ -4642,12 +4488,257 @@ const assets = {
     "size": 1478589,
     "path": "../public/illustrations/how-it-works.png"
   },
+  "/services/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-wDI2pLed/EFAf0gKr2diiM4fPyA\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/services/index.html"
+  },
+  "/what-is-non-repository-plagiarism/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-ez1hJ8qW7lU28gCGGBq4zkKmCLI\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/what-is-non-repository-plagiarism/index.html"
+  },
+  "/_nuxt/1MgrKuGg.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"d93-Ef8TLxQkQxEvoe1u3m8EgxfFdJA\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 3475,
+    "path": "../public/_nuxt/1MgrKuGg.js"
+  },
+  "/_nuxt/38r-YxSc.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"123-5VWmjzpECwz0iC3CvXJVXtPxWxg\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 291,
+    "path": "../public/_nuxt/38r-YxSc.js"
+  },
+  "/_nuxt/BrdUvcC-.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"a25-DtF9GGSdmHDZOfxoaN9Yldjnlo0\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 2597,
+    "path": "../public/_nuxt/BrdUvcC-.js"
+  },
+  "/_nuxt/C0jyqcTE.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"124b-X9bSWcZF6odJeti0SjeYmwMNnGQ\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 4683,
+    "path": "../public/_nuxt/C0jyqcTE.js"
+  },
+  "/_nuxt/CAQABtVr.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"da4-GQn01H+Fpx5FlmumqtJVyE1NWsc\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 3492,
+    "path": "../public/_nuxt/CAQABtVr.js"
+  },
+  "/_nuxt/cEMb1jN3.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"d96-RV4tJPUZncXGzCqCh9HP3C9x/KI\"",
+    "mtime": "2026-07-22T10:35:38.178Z",
+    "size": 3478,
+    "path": "../public/_nuxt/cEMb1jN3.js"
+  },
+  "/_nuxt/CfgSBDpq.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"ecf-Lr/AwULlizCS0uJ6DYQrAPpDEJ4\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 3791,
+    "path": "../public/_nuxt/CfgSBDpq.js"
+  },
+  "/_nuxt/CNClet3J.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"289e-/Zoz4GLfH/Cw1nWMrow9qC3Isw4\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 10398,
+    "path": "../public/_nuxt/CNClet3J.js"
+  },
+  "/_nuxt/CZf6a6Jv.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2448-h1Dtis5yDm+JH/rZ5SjmEVA8JzI\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 9288,
+    "path": "../public/_nuxt/CZf6a6Jv.js"
+  },
+  "/_nuxt/CZSp0bLW.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3e15-KafROtdW8SONBecthtI589cNIbI\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 15893,
+    "path": "../public/_nuxt/CZSp0bLW.js"
+  },
+  "/_nuxt/DGXNGxpP.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"7a7-UIyvLolFyVuif58uUrqPsMdcKl0\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 1959,
+    "path": "../public/_nuxt/DGXNGxpP.js"
+  },
+  "/_nuxt/DikOhuZx.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2ac0-KI4qNa+Fwt+T7yWqlMY4NDWmNkM\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 10944,
+    "path": "../public/_nuxt/DikOhuZx.js"
+  },
+  "/_nuxt/DlAUqK2U.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"5b-eFCz/UrraTh721pgAl0VxBNR1es\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 91,
+    "path": "../public/_nuxt/DlAUqK2U.js"
+  },
+  "/_nuxt/DJr6pxzj.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b25b-thNCumXdFLfS6V0zQ9lkCnDE8AI\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 45659,
+    "path": "../public/_nuxt/DJr6pxzj.js"
+  },
+  "/_nuxt/DPUbJkTc.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"99ad-yb+9rFlRHmYSBpIwISbECagV468\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 39341,
+    "path": "../public/_nuxt/DPUbJkTc.js"
+  },
+  "/_nuxt/error-404.C-Ezrlz-.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"97e-YLcQ2HBNLea0KJoUeqSqSCendIU\"",
+    "mtime": "2026-07-22T10:35:38.178Z",
+    "size": 2430,
+    "path": "../public/_nuxt/error-404.C-Ezrlz-.css"
+  },
+  "/_nuxt/error-500.DBWf9FGj.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"773-9MNIE+ztUss3x7HN62QKMFz0rhs\"",
+    "mtime": "2026-07-22T10:35:38.178Z",
+    "size": 1907,
+    "path": "../public/_nuxt/error-500.DBWf9FGj.css"
+  },
+  "/_nuxt/entry.DTMJEnrV.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"9537-SxCdb7rvUWqFxXKXFqr68MmpSsc\"",
+    "mtime": "2026-07-22T10:35:38.178Z",
+    "size": 38199,
+    "path": "../public/_nuxt/entry.DTMJEnrV.css"
+  },
+  "/_nuxt/RflcKR9r.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"386b-78lLVRfHK+D+/CtVmlZWjzrBSSU\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 14443,
+    "path": "../public/_nuxt/RflcKR9r.js"
+  },
   "/illustrations/hero-student-portal.png": {
     "type": "image/png",
     "etag": "\"1f59b7-tIlaLEgN9cvcQQ1eqnKKDwp5AAE\"",
     "mtime": "2026-04-29T00:53:11.228Z",
     "size": 2054583,
     "path": "../public/illustrations/hero-student-portal.png"
+  },
+  "/_nuxt/R_MehEXt.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"14e7-hPB3x8T3ipM4kfbGn5MjHcX6zJE\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 5351,
+    "path": "../public/_nuxt/R_MehEXt.js"
+  },
+  "/_nuxt/DV5poicX.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2afd8-DBEL31XDqUmNJofp61J6ExGemD8\"",
+    "mtime": "2026-07-22T10:35:38.178Z",
+    "size": 176088,
+    "path": "../public/_nuxt/DV5poicX.js"
+  },
+  "/_nuxt/w978mxax.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1e0e-IQi92AvP4AInNqvfSbuhFOg16Vg\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 7694,
+    "path": "../public/_nuxt/w978mxax.js"
+  },
+  "/_nuxt/XizXwQep.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2a47-cYiI6Ycty3qG9QpRvCGxiGFocDM\"",
+    "mtime": "2026-07-22T10:35:38.194Z",
+    "size": 10823,
+    "path": "../public/_nuxt/XizXwQep.js"
+  },
+  "/blog/drillbit-vs-similarity-check/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-ez1hJ8qW7lU28gCGGBq4zkKmCLI\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/drillbit-vs-similarity-check/index.html"
+  },
+  "/blog/how-long-does-plagiarism-report-take/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-Bn2GQdKOIlzVb8BcS9AzuBaxWss\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/how-long-does-plagiarism-report-take/index.html"
+  },
+  "/blog/how-to-check-plagiarism-for-thesis-india/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-ez1hJ8qW7lU28gCGGBq4zkKmCLI\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/how-to-check-plagiarism-for-thesis-india/index.html"
+  },
+  "/blog/how-to-reduce-ai-detection-score/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-Bn2GQdKOIlzVb8BcS9AzuBaxWss\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/how-to-reduce-ai-detection-score/index.html"
+  },
+  "/blog/plagiarism-check-iit-vtu-anna-university/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-Bn2GQdKOIlzVb8BcS9AzuBaxWss\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/plagiarism-check-iit-vtu-anna-university/index.html"
+  },
+  "/blog/ugc-plagiarism-norms-india-2018/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-Bn2GQdKOIlzVb8BcS9AzuBaxWss\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/ugc-plagiarism-norms-india-2018/index.html"
+  },
+  "/blog/similarity-report-vs-ai-detection-difference/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-Bn2GQdKOIlzVb8BcS9AzuBaxWss\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/similarity-report-vs-ai-detection-difference/index.html"
+  },
+  "/_nuxt/builds/latest.json": {
+    "type": "application/json",
+    "etag": "\"47-YfclJce3x3135vutSw5wKjLAmOw\"",
+    "mtime": "2026-07-22T10:35:43.251Z",
+    "size": 71,
+    "path": "../public/_nuxt/builds/latest.json"
+  },
+  "/blog/what-is-non-repository-plagiarism-check/index.html": {
+    "type": "text/html;charset=utf-8",
+    "etag": "\"51e-ez1hJ8qW7lU28gCGGBq4zkKmCLI\"",
+    "mtime": "2026-07-22T10:35:43.229Z",
+    "size": 1310,
+    "path": "../public/blog/what-is-non-repository-plagiarism-check/index.html"
+  },
+  "/_nuxt/builds/meta/e6042438-0165-4cb2-b979-4e6e6b6a4252.json": {
+    "type": "application/json",
+    "etag": "\"58-M4TW7EJL16lzMT17ikvvq9uSLpE\"",
+    "mtime": "2026-07-22T10:35:43.252Z",
+    "size": 88,
+    "path": "../public/_nuxt/builds/meta/e6042438-0165-4cb2-b979-4e6e6b6a4252.json"
   }
 };
 

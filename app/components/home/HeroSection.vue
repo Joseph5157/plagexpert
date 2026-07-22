@@ -47,11 +47,11 @@ const portalLoginUrl = getPortalLoginUrl()
         <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-primary-50 via-white to-primary-50 blur-2xl"></div>
         <div class="relative overflow-hidden rounded-[2rem] border border-line bg-white/95 p-4 shadow-[0_30px_80px_rgba(16,24,40,0.12)] ring-1 ring-white/70 backdrop-blur sm:p-6">
           <img
-            src="/illustrations/hero-student-portal.png"
+            src="/illustrations/hero-student-portal.webp"
             alt="Student checking plagiarism and AI detection report on PlagExpert portal"
-            class="w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
-            width="800"
-            height="600"
+            class="h-auto w-full rounded-3xl border border-slate-200 bg-white shadow-xl"
+            width="850"
+            height="567"
             fetchpriority="high"
           >
         </div>

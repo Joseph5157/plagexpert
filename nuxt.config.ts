@@ -7,6 +7,13 @@ export default defineNuxtConfig({
     noExternals: true,
     prerender: {
       routes: [
+        '/',
+        '/services',
+        '/pricing',
+        '/faq',
+        '/contact',
+        '/legal',
+        '/what-is-non-repository-plagiarism',
         '/blog',
         '/blog/how-to-check-plagiarism-for-thesis-india',
         '/blog/what-is-non-repository-plagiarism-check',

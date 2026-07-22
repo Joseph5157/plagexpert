@@ -56,7 +56,7 @@ const items = [
 
         <div class="hidden lg:block">
           <img
-            src="/illustrations/secure-document-vault.jpg"
+            src="/illustrations/secure-document-vault.webp"
             alt="Secure document vault with privacy and report protection"
             class="w-full rounded-3xl border border-white/10 bg-white/5 shadow-xl"
           >
