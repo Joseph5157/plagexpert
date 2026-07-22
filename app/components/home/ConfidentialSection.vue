@@ -42,7 +42,7 @@ const items = [
               Start on WhatsApp
             </a>
 
-            <NuxtLink to="/legal#privacy-policy" class="inline-flex w-full items-center justify-center rounded-full border border-white/20 px-7 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto">
+            <NuxtLink to="/privacy-policy" class="inline-flex w-full items-center justify-center rounded-full border border-white/20 px-7 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto">
               Read privacy policy
             </NuxtLink>
           </div>
